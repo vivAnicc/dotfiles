@@ -1,0 +1,328 @@
+{
+	"epic_Foxglove": {
+		"id": "52374052624084437",
+		"game_id": "51562044476137666",
+		"platform_id": "epic",
+		"external_id": "Foxglove",
+		"dlcs_ids": [],
+		"dlcs": [],
+		"parent_id": null,
+		"supported_operating_systems": [
+			{
+				"slug": "osx",
+				"name": "macOS"
+			},
+			{
+				"slug": "windows",
+				"name": "Windows"
+			}
+		],
+		"available_languages": [
+			{
+				"code": "en-US"
+			}
+		],
+		"first_release_date": null,
+		"game": {
+			"id": "51562044476137666",
+			"parent_id": null,
+			"dlcs_ids": [
+				"54753626687664218"
+			],
+			"first_release_date": "2019-01-30T00:00:00+0000",
+			"releases": [
+				{
+					"id": "51983852783784676",
+					"platform_id": "steam",
+					"external_id": "848450",
+					"release_per_platform_id": "steam_848450"
+				},
+				{
+					"id": "52374052624084437",
+					"platform_id": "epic",
+					"external_id": "Foxglove",
+					"release_per_platform_id": "epic_Foxglove"
+				},
+				{
+					"id": "53011214964192802",
+					"platform_id": "humble",
+					"external_id": "subnautica_belowzero_storefront_steam_jLQVC",
+					"release_per_platform_id": "humble_subnautica_belowzero_storefront_steam_jLQVC"
+				},
+				{
+					"id": "53992080812203438",
+					"platform_id": "test",
+					"external_id": "/subnautica-below-zero-free-game-download/",
+					"release_per_platform_id": "test_/subnautica-below-zero-free-game-download/"
+				},
+				{
+					"id": "54024442602399786",
+					"platform_id": "test",
+					"external_id": "subnautica-below-zero",
+					"release_per_platform_id": "test_subnautica-below-zero"
+				},
+				{
+					"id": "54027325489427540",
+					"platform_id": "playfire",
+					"external_id": "subnautica-below-zero",
+					"release_per_platform_id": "playfire_subnautica-below-zero"
+				},
+				{
+					"id": "54269856126344189",
+					"platform_id": "xboxone",
+					"external_id": "1848088335",
+					"release_per_platform_id": "xboxone_1848088335"
+				},
+				{
+					"id": "54302696028134901",
+					"platform_id": "psn",
+					"external_id": "CUSA18058_00",
+					"release_per_platform_id": "psn_CUSA18058_00"
+				},
+				{
+					"id": "54311532003971903",
+					"platform_id": "psn",
+					"external_id": "CUSA18065_00",
+					"release_per_platform_id": "psn_CUSA18065_00"
+				},
+				{
+					"id": "54636390753929951",
+					"platform_id": "test",
+					"external_id": "steam_subnauticabelowzero",
+					"release_per_platform_id": "test_steam_subnauticabelowzero"
+				},
+				{
+					"id": "54640360009731846",
+					"platform_id": "test",
+					"external_id": "gfn_848450",
+					"release_per_platform_id": "test_gfn_848450"
+				},
+				{
+					"id": "54670434125306002",
+					"platform_id": "psn",
+					"external_id": "PPSA02456_00",
+					"release_per_platform_id": "psn_PPSA02456_00"
+				},
+				{
+					"id": "54672361414230224",
+					"platform_id": "psn",
+					"external_id": "PPSA02457_00",
+					"release_per_platform_id": "psn_PPSA02457_00"
+				},
+				{
+					"id": "55141654435245349",
+					"platform_id": "nswitch",
+					"external_id": "010014C011146000",
+					"release_per_platform_id": "nswitch_010014C011146000"
+				},
+				{
+					"id": "55627466220089421",
+					"platform_id": "test",
+					"external_id": "gfn_100318611",
+					"release_per_platform_id": "test_gfn_100318611"
+				},
+				{
+					"id": "57399429909680725",
+					"platform_id": "test",
+					"external_id": "Subnautica - Below Zero",
+					"release_per_platform_id": "test_Subnautica - Below Zero"
+				},
+				{
+					"id": "57399466866630367",
+					"platform_id": "atari",
+					"external_id": "Subnautica - Below Zero",
+					"release_per_platform_id": "atari_Subnautica - Below Zero"
+				},
+				{
+					"id": "51562044476137666",
+					"platform_id": "generic",
+					"external_id": "51562044476137666",
+					"release_per_platform_id": "generic_51562044476137666"
+				}
+			],
+			"title": {
+				"*": "Subnautica: Below Zero",
+				"en-US": "Subnautica: Below Zero"
+			},
+			"sorting_title": {
+				"*": "Subnautica Below Zero",
+				"en-US": "Subnautica Below Zero"
+			},
+			"type": "game",
+			"developers_ids": [
+				"51152893768421538"
+			],
+			"developers": [
+				{
+					"id": "51152893768421538",
+					"name": "Unknown Worlds Entertainment",
+					"slug": "unknown-worlds-entertainment"
+				}
+			],
+			"publishers_ids": [
+				"51152893768421538"
+			],
+			"publishers": [
+				{
+					"id": "51152893768421538",
+					"name": "Unknown Worlds Entertainment",
+					"slug": "unknown-worlds-entertainment"
+				}
+			],
+			"genres_ids": [
+				"51071842251704278",
+				"51121492616405278"
+			],
+			"genres": [
+				{
+					"id": "51071842251704278",
+					"name": {
+						"*": "Adventure",
+						"en-US": "Adventure"
+					},
+					"slug": "adventure"
+				},
+				{
+					"id": "51121492616405278",
+					"name": {
+						"*": "Indie",
+						"en-US": "Indie"
+					},
+					"slug": "indie"
+				}
+			],
+			"themes_ids": [
+				"51071842227872529",
+				"51141225463821636",
+				"51141226418224461"
+			],
+			"themes": [
+				{
+					"id": "51071842227872529",
+					"name": {
+						"*": "Open world",
+						"en-US": "Open world"
+					},
+					"slug": "open-world"
+				},
+				{
+					"id": "51141225463821636",
+					"name": {
+						"*": "Science fiction",
+						"en-US": "Science fiction"
+					},
+					"slug": "science-fiction"
+				},
+				{
+					"id": "51141226418224461",
+					"name": {
+						"*": "Survival",
+						"en-US": "Survival"
+					},
+					"slug": "survival"
+				}
+			],
+			"screenshots": [
+				{
+					"url_format": "https://images.gog.com/b15efedb66bb4736661992d295673c4c85efb7874becbdf60eb339c7a783ac53{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/bd1f2a885110f2ca447728bb8d3af86f7aa4fffc5f0fcd93e4791013da5ea5db{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/9caf207dc528bcd4923da4b8354bd9a719c3f0a721c8ad485b4028927636f808{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/a5691db4f9597601962ad7d8a8c9443408477df10bcad3a3624ed1a0941936be{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/82665bfd45677607e96178e9e03f4dae89583f5b31a4b4bb04e1a47b90567cc4{formatter}.{ext}?namespace=gamesdb"
+				},
+				{
+					"url_format": "https://images.gog.com/13f19d6aac1252bcd7ef89f47620e4569a98c43fb04b05ae05623c9b2472c023{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"videos": [
+				{
+					"provider": "youtube",
+					"video_id": "rA7BRa9_Lu4",
+					"thumbnail_id": "rA7BRa9_Lu4",
+					"name": "Trailer"
+				},
+				{
+					"provider": "youtube",
+					"video_id": "rdix1XxaZyU",
+					"thumbnail_id": "rdix1XxaZyU",
+					"name": "Launch Trailer"
+				}
+			],
+			"artworks": [
+				{
+					"url_format": "https://images.gog.com/16862ded9e6d67fa8ea295af3c3b1144066f6eba3b00a60ab157b36a1d878971{formatter}.{ext}?namespace=gamesdb"
+				}
+			],
+			"summary": {
+				"*": "\"Unknown Worlds is building a stand-alone expansion to Subnautica, called Subnautica: Below Zero. Set in an ice-bound region of planet 4546B, after the events of the original game, Below Zero will offer a new chapter in the Subnautica universe.\" \r\n \r\n\"The concept of Below Zero is still developing. We are keeping the core gameplay mechanics, such as base building and open-ended exploration. We are also exploring new ones, such as thermal management, and more voiced dialogue at the core of the plot. We're still in early stages and nothing is set in ice. These features may change prior to, and during, Early Access.\"",
+				"en-US": "Dive into a freezing underwater adventure on an alien planet. Below Zero is set two years after the original Subnautica. Return to Planet 4546B to uncover the truth behind a deadly cover-up. Survive by building habitats, crafting tools, & diving deeper into the world of Subnautica."
+			},
+			"visible_in_library": true,
+			"aggregated_rating": 85.2,
+			"game_modes": [
+				{
+					"id": "53051895165351137",
+					"name": "Single player",
+					"slug": "single-player"
+				}
+			],
+			"horizontal_artwork": {
+				"url_format": "https://images.gog.com/8cb17ac7ded3fda161a9ff420d861b60ff8c21c8002e6f283a43d1b45621a2c7{formatter}.{ext}?namespace=gamesdb"
+			},
+			"background": {
+				"url_format": "https://images.gog.com/8cb17ac7ded3fda161a9ff420d861b60ff8c21c8002e6f283a43d1b45621a2c7{formatter}.{ext}?namespace=gamesdb"
+			},
+			"vertical_cover": {
+				"url_format": "https://images.gog.com/1f8187873f2d415d339d8695cba02816b9a822a15b2e522194fd8757cf7a1385{formatter}.{ext}?namespace=gamesdb"
+			},
+			"cover": {
+				"url_format": "https://images.gog.com/1f8187873f2d415d339d8695cba02816b9a822a15b2e522194fd8757cf7a1385{formatter}.{ext}?namespace=gamesdb"
+			},
+			"logo": {
+				"url_format": "https://images.gog.com/1f8187873f2d415d339d8695cba02816b9a822a15b2e522194fd8757cf7a1385{formatter}.{ext}?namespace=gamesdb"
+			},
+			"square_icon": {
+				"url_format": "https://images.gog.com/16862ded9e6d67fa8ea295af3c3b1144066f6eba3b00a60ab157b36a1d878971{formatter}.{ext}?namespace=gamesdb"
+			},
+			"global_popularity_all_time": 0,
+			"global_popularity_current": 0,
+			"slug": "subnautica-below-zero"
+		},
+		"title": {
+			"*": "Subnautica Below Zero",
+			"en-US": "Subnautica: Below Zero"
+		},
+		"sorting_title": {
+			"*": "Subnautica Below Zero",
+			"en-US": "Subnautica Below Zero"
+		},
+		"type": "game",
+		"summary": {
+			"*": "\"Unknown Worlds is building a stand-alone expansion to Subnautica, called Subnautica: Below Zero. Set in an ice-bound region of planet 4546B, after the events of the original game, Below Zero will offer a new chapter in the Subnautica universe.\" \r\n \r\n\"The concept of Below Zero is still developing. We are keeping the core gameplay mechanics, such as base building and open-ended exploration. We are also exploring new ones, such as thermal management, and more voiced dialogue at the core of the plot. We're still in early stages and nothing is set in ice. These features may change prior to, and during, Early Access.\"",
+			"en-US": "Dive into a freezing underwater adventure on an alien planet. Below Zero is set two years after the original Subnautica. Return to Planet 4546B to uncover the truth behind a deadly cover-up. Survive by building habitats, crafting tools, & diving deeper into the world of Subnautica."
+		},
+		"videos": [],
+		"game_modes": [
+			{
+				"id": "53051895165351137",
+				"name": "Single player",
+				"slug": "single-player"
+			}
+		],
+		"logo": {
+			"url_format": "https://images.gog.com/1f8187873f2d415d339d8695cba02816b9a822a15b2e522194fd8757cf7a1385{formatter}.{ext}?namespace=gamesdb"
+		},
+		"etag": "W/\"13d87de88644c848b97247ed18607713\""
+	},
+	"__timestamp": {
+		"epic_Foxglove": "Sun Jan 26 2025 14:09:14 GMT+0100 (Central European Standard Time)"
+	}
+}

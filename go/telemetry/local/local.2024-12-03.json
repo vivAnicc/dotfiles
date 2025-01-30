@@ -1,0 +1,68 @@
+{
+ "Week": "2024-12-03",
+ "LastWeek": "",
+ "X": 0.40360128552393126,
+ "Programs": [
+  {
+   "Program": "cmd/compile",
+   "Version": "go1.23.3",
+   "GoVersion": "go1.23.3",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "compile/invocations": 3
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.23.3",
+   "GoVersion": "go1.23.3",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/buildcache/hit": 2,
+    "go/buildcache/miss": 1,
+    "go/env/flag:json": 2,
+    "go/goroot:usr-lib-go": 11,
+    "go/invocations": 11,
+    "go/list/flag:compiled": 2,
+    "go/list/flag:deps": 2,
+    "go/list/flag:e": 5,
+    "go/list/flag:export": 2,
+    "go/list/flag:f": 5,
+    "go/list/flag:find": 2,
+    "go/list/flag:json": 2,
+    "go/list/flag:overlay": 3,
+    "go/list/flag:pgo": 2,
+    "go/list/flag:test": 2,
+    "go/mode:gopath": 8,
+    "go/mode:module": 3,
+    "go/platform/host/linux/major-version:6": 11,
+    "go/platform/host/linux/version:6-11": 11,
+    "go/platform/target/goamd64:v1": 11,
+    "go/platform/target/goarch:amd64": 11,
+    "go/platform/target/goos:linux": 11,
+    "go/subcommand:env": 3,
+    "go/subcommand:list": 7,
+    "go/subcommand:version": 1
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "golang.org/x/tools/gopls",
+   "Version": "v0.16.2",
+   "GoVersion": "go1.23.3",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "gopls/client:neovim": 1,
+    "gopls/gotoolchain:auto": 1,
+    "gopls/goversion:1.23": 1,
+    "gopls/telemetryprompt/attempts:0": 1
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}

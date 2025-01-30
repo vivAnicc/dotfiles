@@ -1,0 +1,30 @@
+{
+  "jiqqNEXPntMkctjjjPNhXd": {
+    "autoInstallDxvk": true,
+    "autoInstallDxvkNvapi": false,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableMsync": false,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": true,
+    "useGameMode": false,
+    "battlEyeRuntime": true,
+    "eacRuntime": true,
+    "language": "",
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "wineVersion": {
+      "bin": "/home/nick/.local/share/Steam/steamapps/common/Proton - Experimental/proton",
+      "name": "Proton - Proton - Experimental",
+      "type": "proton"
+    },
+    "winePrefix": "/home/nick/Games/Heroic/Prefixes/default/BelowZeroMultiPlayer",
+    "wineCrossoverBottle": ""
+  },
+  "version": "v0",
+  "explicit": true
+}

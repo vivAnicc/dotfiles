@@ -1,0 +1,101 @@
+Lumafly Information: 0 : Launching...
+    DateTime=2024-11-23T10:49:59.9676368Z
+Unable to setup for linux url schemeAccess to the path '/usr/share/applications/scarab.desktop' is denied.
+LogHost: Initializing to normal mode (.cctor)
+Loaded app
+Opening Lumafly Version: 3.3.0.0
+Checking if up to date...
+Settings doesn't exist. Creating it at detected path ValidPath { Root = /home/nick/.local/share/Steam/steamapps/common/Hollow Knight, Suffix = hollow_knight_Data/Managed }.
+[Binding]Error in binding to 'Avalonia.Input.KeyBinding'.'Command': 'Null value in expression '{empty}' at ''.'(KeyBinding #9433441)
+[Binding]Error in binding to 'Avalonia.Input.KeyBinding'.'Command': 'Null value in expression '{empty}' at ''.'(KeyBinding #17792110)
+[Binding]Error in binding to 'Avalonia.Input.KeyBinding'.'Command': 'Null value in expression '{empty}' at ''.'(KeyBinding #25911262)
+[Binding]Error in binding to 'Avalonia.Controls.RowDefinition'.'Height': 'Null value in expression '{empty}' at ''.'(RowDefinition #18437496)
+[Binding]Error in binding to 'Avalonia.Controls.RowDefinition'.'Height': 'Null value in expression '{empty}' at ''.'(RowDefinition #31719739)
+netsparkle: Using the following url for downloading the app cast: https://raw.githubusercontent.com/TheMulhima/Lumafly/master/appcast.xml
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.GetStringAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Lumafly.Util.HttpClientExt.<>c.<<GetStringAsync2>b__5_0>d.MoveNext() in /home/runner/work/Lumafly/Lumafly/Lumafly/Util/HttpClientExt.cs:line 102
+--- End of stack trace from previous location ---
+   at Lumafly.Util.HttpClientExt.TryDo[T](HttpClient client, ISettings settings, Uri uri, Func`4 action, CancellationToken cancellationToken) in /home/runner/work/Lumafly/Lumafly/Lumafly/Util/HttpClientExt.cs:line 32
+   at Lumafly.Services.AppUpdater.GetUpdateLinks() in /home/runner/work/Lumafly/Lumafly/Lumafly/Services/AppUpdater.cs:line 156
+Loading settings.
+Fetching links
+Fetched links successfully
+Creating service collection
+Building service provider
+Built service provider
+Displaying model
+Installer initialized
+Initializing InfoViewModel
+Initializing ModListViewModel
+Creating Items
+Items Created
+Items Selected
+ReverseDependencySearch initialized
+ModlinksChanges service created
+Reactive commands created
+Created tag and author list
+Started getting modlinks changes
+Initializing SettingsViewModel
+SettingsViewModel Initialized
+Initial API check complete
+Selected Tab 0
+Finished getting modlinks changes
+[Binding]Error in binding to 'Avalonia.Controls.ColumnDefinition'.'Width': 'Null value in expression '{empty}' at '$self.TemplatedParent'.'(ColumnDefinition #30272055)
+[Binding]Error in binding to 'ColorTextBlock.Avalonia.CCode'.'Foreground': 'Unable to convert object 'Blue' of type 'Avalonia.Media.Color' to type 'Avalonia.Media.IBrush'.'(CCode #25260389)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #26016911)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #32825611)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #26995051)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #41628871)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #39115519)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #16495358)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #14240500)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #61055642)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #12629874)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #46560003)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #16386848)
+[Binding]Error in binding to 'Avalonia.Animation.AnimatorKeyFrame'.'Value': 'Null value in expression '{empty}' at '$parent[ProgressBar, 0]'.'(AnimatorKeyFrame #13263904)
+Launching game
+Launching game
+[Binding]Error in binding to 'Avalonia.Controls.ColumnDefinition'.'Width': 'Null value in expression '{empty}' at '$self.TemplatedParent'.'(ColumnDefinition #10438740)
+Lumafly Information: 0 : Launching...
+    DateTime=2024-11-23T11:26:45.2113027Z
+Unable to setup for linux url schemeAccess to the path '/usr/share/applications/scarab.desktop' is denied.
+LogHost: Initializing to normal mode (.cctor)
+Loaded app
+Opening Lumafly Version: 3.3.0.0
+Checking if up to date...
+netsparkle: Using the following url for downloading the app cast: https://raw.githubusercontent.com/TheMulhima/Lumafly/master/appcast.xml
+Lumafly Information: 0 : Launching...
+    DateTime=2024-11-23T13:38:18.6240161Z
+Unable to setup for linux url schemeAccess to the path '/usr/share/applications/scarab.desktop' is denied.
+LogHost: Initializing to normal mode (.cctor)
+Loaded app
+Opening Lumafly Version: 3.3.0.0
+Checking if up to date...
+netsparkle: Using the following url for downloading the app cast: https://raw.githubusercontent.com/TheMulhima/Lumafly/master/appcast.xml
+Loading settings.
+Fetching links
+Fetched links successfully
+Creating service collection
+Building service provider
+Built service provider
+Displaying model
+Installer initialized
+Initializing InfoViewModel
+Initializing ModListViewModel
+Creating Items
+Items Created
+Items Selected
+ReverseDependencySearch initialized
+ModlinksChanges service created
+Initial API check complete
+Reactive commands created
+Created tag and author list
+Started getting modlinks changes
+Initializing SettingsViewModel
+SettingsViewModel Initialized
+Selected Tab 0
+Finished getting modlinks changes
+[Binding]Error in binding to 'Avalonia.Controls.ColumnDefinition'.'Width': 'Null value in expression '{empty}' at '$self.TemplatedParent'.'(ColumnDefinition #10463359)

@@ -1,0 +1,27 @@
+# GIMP action-history
+
+(history-item "file-export-as" 5)
+(history-item "filters-pixelize" 4)
+(history-item "file-quit" 0)
+(history-item "view-close" 4)
+(history-item "filters-gaussian-blur" 2)
+(history-item "file-open" 1)
+(history-item "select-all" 1)
+(history-item "image-duplicate" 1)
+(history-item "filters-focus-blur" 0)
+(history-item "edit-clear" 1)
+(history-item "filters-noise-rgb" 0)
+(history-item "filters-noise-cie-lch" 0)
+(history-item "filters-noise-hsv" 0)
+(history-item "filters-noise-hurl" 0)
+(history-item "filters-noise-pick" 0)
+(history-item "filters-noise-slur" 0)
+(history-item "filters-noise-spread" 0)
+(history-item "filters-motion-blur-linear" 0)
+(history-item "filters-shift" 0)
+(history-item "tools-opacity-increase-skip" 0)
+(history-item "dialogs-selection-editor" 0)
+(history-item "layers-delete" 0)
+(history-item "tools-ellipse-select" 1)
+
+# end of action-history

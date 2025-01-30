@@ -1,0 +1,104 @@
+{
+  "app_name": "326c68c9bcc84032a8e6ce4d39a9ce9b",
+  "app_title": "Scorn",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "326c68c9bcc84032a8e6ce4d39a9ce9b",
+      "asset_id": "326c68c9bcc84032a8e6ce4d39a9ce9b",
+      "build_version": "1.2.2.2",
+      "catalog_item_id": "89d3a6a5ec3045e4a1b5a45a0153b300",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "135201128d4f428699a891fc501a5097",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2022-06-10T17:43:49.740Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "Scorn"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "Scorn",
+    "developer": "Kepler Interactive",
+    "developerId": "o-yrjx9sk66ym9ktjnjml6qzsyjhczdz",
+    "endOfSupport": false,
+    "entitlementName": "89d3a6a5ec3045e4a1b5a45a0153b300",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "89d3a6a5ec3045e4a1b5a45a0153b300",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "b958f07bf097c78b100af56b0dd0c833",
+        "size": 939875,
+        "type": "DieselGameBox",
+        "uploadedDate": "2023-03-07T14:30:53.568Z",
+        "url": "https://cdn1.epicgames.com/item/135201128d4f428699a891fc501a5097/EGS_Scorn_EbbSoftware_S1_2560x1440-b958f07bf097c78b100af56b0dd0c833",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "0c5064a630c7fb9f5e65e36b08e8d88d",
+        "size": 826956,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2023-03-07T14:30:57.867Z",
+        "url": "https://cdn1.epicgames.com/item/135201128d4f428699a891fc501a5097/EGS_Scorn_EbbSoftware_S2_1200x1600-0c5064a630c7fb9f5e65e36b08e8d88d",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2024-05-21T05:35:52.466Z",
+    "namespace": "135201128d4f428699a891fc501a5097",
+    "releaseInfo": [
+      {
+        "appId": "326c68c9bcc84032a8e6ce4d39a9ce9b",
+        "compatibleApps": [],
+        "dateAdded": "2022-06-10T17:46:38.484Z",
+        "id": "aaa58d639a944e7889e19dc0e1437a13",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Scorn",
+    "unsearchable": true
+  },
+  "sidecar": null
+}

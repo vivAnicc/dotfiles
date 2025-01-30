@@ -1,0 +1,107 @@
+[1/26/2025, 2:35:47 PM] LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+legendary version "0.20.36", codename "Urban Flight (Heroic)"
+[1/26/2025, 2:35:48 PM] LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Getting game list... (this may take a while)
+
+Available games:
+ * Art of Rally (App name: 01805192c8074820b1257fcfd97f2648 | Version: Windows_1.5.7_202410112311)
+ * Blazing Sails (App name: ed5f5b7f2e1f43c89ea8bafd15591bda | Version: 3.0.8.7)
+ * Chivalry 2 (App name: Peppermint | Version: 259182+4855)
+ * Chivalry 2 - Public Testing (App name: ca02598c9a5c4d5491d6431ce8e8d6e7 | Version: 250491+4716)
+ * Dauntless (App name: Jackal | Version: 2.1.1.682875)
+ * Discord (App name: 6fbbc765b38c4f2ea3d9a9caa620bae7 | Version: 1.0.9179.win)
+ * Dishonored®: Death of the Outsider™ (App name: 2fb8273dcf6f41e4899c0c881e047053 | Version: 0.0.0.4)
+ * Dragon Age: Inquisition – Game of the Year Edition (App name: verdi | Version: v01.00)
+ * Empyrion - Galactic Survival (App name: 16db0e48c4d84d1490ab96be62a83c4c | Version: 1.11.10-4546)
+ * Fall Guys (App name: 0a2d9f6403244d12969e11da6713137b | Version: EGS_8749)
+ * Fallout 2: A Post Nuclear Role Playing Game (App name: 74034e8449f2470d9f45115f3a49f9aa | Version: 1.3)
+ * Fallout Tactics: Brotherhood of Steel (App name: 908f75e7f1624819a70c27f543741dcd | Version: 1.4)
+ * Fallout: A Post Nuclear Role Playing Game (App name: f8ef168f3522419caad27d82878e0329 | Version: 1.3)
+ * Fallout: New Vegas (App name: 5daeb974a22a435988892319b3a4f476 | Version: 0.0.0.15)
+  + Fallout New Vegas: Courier's Stash (App name: ee9a44b4530942499ef1c8c390731fce | Version: 0.0.0.3)
+  + Fallout New Vegas®: Dead Money (App name: b290229eb58045cbab9501640f3278f3 | Version: 0.0.0.2)
+  + Fallout New Vegas®: Gun Runners’ Arsenal™ (App name: 7dcfb9cd9d134728b2646466c34c7b3b | Version: 0.0.0.2)
+  + Fallout New Vegas®: Honest Hearts (App name: 562d4a2c1b3147b089a7c453e3ddbcbe | Version: 0.0.0.4)
+  + Fallout New Vegas®: Lonesome Road™ (App name: 4fa3d8d9b2cb4714a19a38d1a598be8f | Version: 0.0.0.2)
+  + Fallout New Vegas®: Old World Blues (App name: c8dae1ab0570475a8b38a9041e614840 | Version: 0.0.0.3)
+ * Farming Simulator 22 (App name: f452ea20ae1b43698209998b56c2cc1c | Version: 1.14.0.0_FarmP_1_1_win_b29250_r86546)
+ * Fortnite (App name: Fortnite | Version: ++Fortnite+Release-33.20-CL-39277041-Windows)
+ * Islets (App name: 5e37739a766b4457981d2992f93ac72c | Version: 1.03)
+ * Marvel's Guardians of the Galaxy (App name: 63a665088eb1480298f1e57943b225d8 | Version: 2984448)
+  + Marvel's Guardians of the Galaxy: Social-Lord Outfit (App name: 9596620d263b40c083ddf1f0c662c8ff | Version: 2978210)
+ * MORDHAU (App name: 2e26af55c1a146e7a939dcc1014fc9fd | Version: 1.27443.15101.702625635)
+ * Q.U.B.E. 10th Anniversary (App name: 440abc2d035f494a9bf172ed29f9fa2f | Version: 1.5.26.4)
+ * Q.U.B.E. 2 (App name: Auk | Version: 2.0.38)
+  + Glove Skin (App name: AukGlove | Version: 2.0)
+  + Puzzle Pack 1 (App name: AukPuzzle1 | Version: 2.0.34)
+  + Puzzle Pack 2 (App name: AukPuzzle2 | Version: 2.0.38)
+ * Q.U.B.E. 2 Soundtrack (App name: AukSoundtrack | Version: 1.1)
+ * Rocket League® (App name: Sugar | Version: BC2_Update53+468477)
+ * Scorn (App name: 326c68c9bcc84032a8e6ce4d39a9ce9b | Version: 1.2.2.2)
+ * Second Extinction™ (App name: 18a85afedeac4ea885b27fee3e0c81db | Version: 0.0.335)
+ * STAR WARS™ Battlefront™ II: Celebration Edition (App name: MtMassive | Version: None)
+  - This game has to be activated, installed, and launched via Origin, use "legendary launch --origin MtMassive" to activate and/or run the game.
+ * Subnautica Below Zero (App name: Foxglove | Version: 49371-27733068-Windows)
+ * The Callisto Protocol (App name: 256ba8bdd1ff4c26a0b2d3776d1a1bf6 | Version: 1.16.0.0-1.71290.0.712379)
+ * theHunter: Call of the Wild™ (App name: 4f0c34d469bb47b2bcf5b377f47ccfe3 | Version: 1.47.2900966)
+ * Turnip Boy Commits Tax Evasion (App name: 3d34f303a68c44c2a9b44a3988533e90 | Version: 1.1.2f2)
+
+Total: 30
+[1/26/2025, 2:35:50 PM] LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+[cli] INFO: Logging in...
+[Core] INFO: Trying to re-use existing login session...
+[cli] INFO: Getting game list... (this may take a while)
+
+Available games:
+ * Art of Rally (App name: 01805192c8074820b1257fcfd97f2648 | Version: Windows_1.5.7_202410112311)
+ * Blazing Sails (App name: ed5f5b7f2e1f43c89ea8bafd15591bda | Version: 3.0.8.7)
+ * Chivalry 2 (App name: Peppermint | Version: 259182+4855)
+ * Chivalry 2 - Public Testing (App name: ca02598c9a5c4d5491d6431ce8e8d6e7 | Version: 250491+4716)
+ * Dauntless (App name: Jackal | Version: 2.1.1.682875)
+ * Discord (App name: 6fbbc765b38c4f2ea3d9a9caa620bae7 | Version: 1.0.9179.win)
+ * Dishonored®: Death of the Outsider™ (App name: 2fb8273dcf6f41e4899c0c881e047053 | Version: 0.0.0.4)
+ * Dragon Age: Inquisition – Game of the Year Edition (App name: verdi | Version: v01.00)
+ * Empyrion - Galactic Survival (App name: 16db0e48c4d84d1490ab96be62a83c4c | Version: 1.11.10-4546)
+ * Fall Guys (App name: 0a2d9f6403244d12969e11da6713137b | Version: EGS_8749)
+ * Fallout 2: A Post Nuclear Role Playing Game (App name: 74034e8449f2470d9f45115f3a49f9aa | Version: 1.3)
+ * Fallout Tactics: Brotherhood of Steel (App name: 908f75e7f1624819a70c27f543741dcd | Version: 1.4)
+ * Fallout: A Post Nuclear Role Playing Game (App name: f8ef168f3522419caad27d82878e0329 | Version: 1.3)
+ * Fallout: New Vegas (App name: 5daeb974a22a435988892319b3a4f476 | Version: 0.0.0.15)
+  + Fallout New Vegas: Courier's Stash (App name: ee9a44b4530942499ef1c8c390731fce | Version: 0.0.0.3)
+  + Fallout New Vegas®: Dead Money (App name: b290229eb58045cbab9501640f3278f3 | Version: 0.0.0.2)
+  + Fallout New Vegas®: Gun Runners’ Arsenal™ (App name: 7dcfb9cd9d134728b2646466c34c7b3b | Version: 0.0.0.2)
+  + Fallout New Vegas®: Honest Hearts (App name: 562d4a2c1b3147b089a7c453e3ddbcbe | Version: 0.0.0.4)
+  + Fallout New Vegas®: Lonesome Road™ (App name: 4fa3d8d9b2cb4714a19a38d1a598be8f | Version: 0.0.0.2)
+  + Fallout New Vegas®: Old World Blues (App name: c8dae1ab0570475a8b38a9041e614840 | Version: 0.0.0.3)
+ * Farming Simulator 22 (App name: f452ea20ae1b43698209998b56c2cc1c | Version: 1.14.0.0_FarmP_1_1_win_b29250_r86546)
+ * Fortnite (App name: Fortnite | Version: ++Fortnite+Release-33.20-CL-39277041-Windows)
+ * Islets (App name: 5e37739a766b4457981d2992f93ac72c | Version: 1.03)
+ * Marvel's Guardians of the Galaxy (App name: 63a665088eb1480298f1e57943b225d8 | Version: 2984448)
+  + Marvel's Guardians of the Galaxy: Social-Lord Outfit (App name: 9596620d263b40c083ddf1f0c662c8ff | Version: 2978210)
+ * MORDHAU (App name: 2e26af55c1a146e7a939dcc1014fc9fd | Version: 1.27443.15101.702625635)
+ * Q.U.B.E. 10th Anniversary (App name: 440abc2d035f494a9bf172ed29f9fa2f | Version: 1.5.26.4)
+ * Q.U.B.E. 2 (App name: Auk | Version: 2.0.38)
+  + Glove Skin (App name: AukGlove | Version: 2.0)
+  + Puzzle Pack 1 (App name: AukPuzzle1 | Version: 2.0.34)
+  + Puzzle Pack 2 (App name: AukPuzzle2 | Version: 2.0.38)
+ * Q.U.B.E. 2 Soundtrack (App name: AukSoundtrack | Version: 1.1)
+ * Rocket League® (App name: Sugar | Version: BC2_Update53+468477)
+ * Scorn (App name: 326c68c9bcc84032a8e6ce4d39a9ce9b | Version: 1.2.2.2)
+ * Second Extinction™ (App name: 18a85afedeac4ea885b27fee3e0c81db | Version: 0.0.335)
+ * STAR WARS™ Battlefront™ II: Celebration Edition (App name: MtMassive | Version: None)
+  - This game has to be activated, installed, and launched via Origin, use "legendary launch --origin MtMassive" to activate and/or run the game.
+ * Subnautica Below Zero (App name: Foxglove | Version: 49371-27733068-Windows)
+ * The Callisto Protocol (App name: 256ba8bdd1ff4c26a0b2d3776d1a1bf6 | Version: 1.16.0.0-1.71290.0.712379)
+ * theHunter: Call of the Wild™ (App name: 4f0c34d469bb47b2bcf5b377f47ccfe3 | Version: 1.47.2900966)
+ * Turnip Boy Commits Tax Evasion (App name: 3d34f303a68c44c2a9b44a3988533e90 | Version: 1.1.2f2)
+
+Total: 30
+[1/26/2025, 2:39:46 PM] LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary eos-overlay info --prefix "/home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero/pfx"
+[cli] INFO: Using prefix "/home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero/pfx"
+[cli] INFO: No Legendary-managed installation found.
+[cli] INFO: Found available Overlay installations in:
+[cli] INFO: Overlay enabled: No
+[cli] INFO: Enabled Overlay path: None
+[cli] INFO: No enabled Vulkan layers.

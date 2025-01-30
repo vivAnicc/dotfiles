@@ -1,0 +1,14 @@
+:q
+:t map (el "li") . map getStructureString 
+:t map Structure . map getStructureString 
+:t map Strucure . map getStructureString 
+:t map getStructureString 
+map getStructureString 
+:l Html/Internal.hs
+:quit
+:?
+q
+w
+quit
+quot
+4 + 2^2

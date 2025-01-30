@@ -1,0 +1,785 @@
+(14:08:55) INFO:    [Legendary]:        Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
+(14:08:55) INFO:    [Gog]:              GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
+(14:08:55) INFO:    [Connection]:       Connectivity: check-online
+(14:08:55) INFO:    [Connection]:       Pinging external endpoints
+(14:08:55) INFO:    [Gog]:              Checking for existing gog manifests
+(14:08:55) WARNING: [Backend]:          Protocol already registered.
+(14:08:55) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+(14:08:55) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/nick/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/nick/.config/heroic/gog_store/auth.json --version
+(14:08:55) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/nick/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile --version
+(14:08:56) INFO:    [Connection]:       Connectivity: online
+(14:08:56) INFO:    [Backend]:          User Not Found, removing it from Store
+(14:08:56) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(14:08:56) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/nick/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/nick/.config/heroic/gog_store/auth.json auth
+(14:08:56) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(14:08:56) INFO:    [Backend]:          
+System Information:
+CPU: 8x Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+Memory: 16.7 GB (used: 2.35 GB)
+GPUs:
+  GPU 0:
+    Name: NVIDIA Corporation TU106 [GeForce RTX 2060 Rev. A]
+    IDs: D=1f08 V=10de SD=2062 SV=3842
+    Driver: nvidia
+OS: Arch Linux 6.6.72-1-lts (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.2 Emeth
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.1.2
+
+  Nile: 1.1.2 Will A. Zeppeli
+
+(14:08:56) INFO:    [Backend]:          Frontend Ready
+(14:08:56) INFO:    [Backend]:          Checking for new Heroic Updates
+(14:08:56) INFO:    [Backend]:          Checking for current version changelog
+(14:08:58) INFO:    [Winetricks]:       Downloading Winetricks
+(14:09:00) INFO:    [WineDownloader]:   Updating wine versions info
+(14:09:00) INFO:    [WineDownloader]:   Fetching upstream information...
+(14:09:01) INFO:    [Backend]:          Starting the Download Queue
+(14:09:01) INFO:    [WineDownloader]:   wine versions updated
+(14:09:04) INFO:    [Legendary]:        Logging in: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary auth --code <redacted>
+(14:09:05) INFO:    [Frontend]:         Refreshing legendary Library
+(14:09:05) INFO:    [Legendary]:        Refreshing library...
+(14:09:05) INFO:    [Legendary]:        Refreshing Epic Games...
+(14:09:05) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(14:09:08) INFO:    [Legendary]:        Game list updated, got 40 games & DLCs
+(14:09:08) INFO:    [Frontend]:         No cache found, getting data from legendary...
+(14:09:08) INFO:    [Legendary]:        Refreshing library...
+(14:09:08) INFO:    [Legendary]:        Refreshing Epic Games...
+(14:09:08) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(14:09:09) INFO:    [Legendary]:        Game list updated, got 40 games & DLCs
+(14:09:09) INFO:    [Frontend]:         Force Update
+(14:09:14) INFO:    [ExtraGameInfo]:    Getting ExtraGameInfo data for Subnautica Below Zero
+(14:09:14) INFO:    [ExtraGameInfo]:    Getting PCGamingWiki data for Subnautica Below Zero
+(14:09:14) INFO:    [ExtraGameInfo]:    Getting HowLongToBeat data for Subnautica Below Zero
+(14:09:14) INFO:    [ExtraGameInfo]:    Getting GamesDB data for Subnautica Below Zero
+(14:09:14) INFO:    [ExtraGameInfo]:    Getting ExtraGameInfo data for Subnautica Below Zero
+(14:09:14) INFO:    [ExtraGameInfo]:    Getting PCGamingWiki data for Subnautica Below Zero
+(14:09:14) INFO:    [ExtraGameInfo]:    Getting HowLongToBeat data for Subnautica Below Zero
+(14:09:14) INFO:    [ExtraGameInfo]:    Getting GamesDB data for Subnautica Below Zero
+(14:09:14) INFO:    [Legendary]:        Getting more details with 'legendary info'
+(14:09:14) INFO:    [Legendary]:        Getting more details with 'legendary info'
+(14:09:14) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Foxglove --json --platform Windows
+(14:09:14) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary info Foxglove --json --platform Windows
+(14:09:14) ERROR:   [ExtraGameInfo]:    Got AxiosError when sending HowLongToBeat request for Subnautica Below Zero: {
+  "message": "Request failed with status code 404",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 404\n    at createError (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/opt/Heroic/resources/app.asar/node_modules/axios/lib/adapters/http.js:322:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json",
+      "User-Agent": "HeroicGamesLauncher/2.15.2",
+      "Referer": "https://howlongtobeat.com/",
+      "Content-Length": 360
+    },
+    "method": "post",
+    "url": "https://www.howlongtobeat.com/api/search",
+    "data": "{\"searchType\":\"games\",\"searchTerms\":[\"Subnautica\",\"Below\",\"Zero\"],\"searchPage\":1,\"size\":20,\"searchOptions\":{\"games\":{\"userId\":0,\"platform\":\"\",\"sortCategory\":\"popular\",\"rangeCategory\":\"main\",\"rangeTime\":{\"min\":0,\"max\":0},\"gameplay\":{\"perspective\":\"\",\"flow\":\"\",\"genre\":\"\"},\"modifier\":\"\"},\"users\":{\"sortCategory\":\"postcount\"},\"filter\":\"\",\"sort\":0,\"randomizer\":0}}"
+  },
+  "status": 404
+}
+(14:09:14) ERROR:   [ExtraGameInfo]:    Got AxiosError when sending HowLongToBeat request for Subnautica Below Zero: {
+  "message": "Request failed with status code 404",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 404\n    at createError (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/opt/Heroic/resources/app.asar/node_modules/axios/lib/adapters/http.js:322:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json",
+      "User-Agent": "HeroicGamesLauncher/2.15.2",
+      "Referer": "https://howlongtobeat.com/",
+      "Content-Length": 360
+    },
+    "method": "post",
+    "url": "https://www.howlongtobeat.com/api/search",
+    "data": "{\"searchType\":\"games\",\"searchTerms\":[\"Subnautica\",\"Below\",\"Zero\"],\"searchPage\":1,\"size\":20,\"searchOptions\":{\"games\":{\"userId\":0,\"platform\":\"\",\"sortCategory\":\"popular\",\"rangeCategory\":\"main\",\"rangeTime\":{\"min\":0,\"max\":0},\"gameplay\":{\"perspective\":\"\",\"flow\":\"\",\"genre\":\"\"},\"modifier\":\"\"},\"users\":{\"sortCategory\":\"postcount\"},\"filter\":\"\",\"sort\":0,\"randomizer\":0}}"
+  },
+  "status": 404
+}
+(14:09:15) INFO:    [Legendary]:        Getting Info from Epic API
+(14:09:15) DEBUG:   [Backend]:          ProtonDB data for 848450 {"bestReportedTier":"platinum","confidence":"strong","score":0.87,"tier":"platinum","total":174,"trendingTier":"platinum"}
+(14:09:15) DEBUG:   [Backend]:          SteamDeck data for 848450 {"success":1,"results":{"appid":848450,"resolved_category":2,"resolved_items":[{"display_type":3,"loc_token":"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"},{"display_type":4,"loc_token":"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"},{"display_type":4,"loc_token":"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"},{"display_type":4,"loc_token":"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"},{"display_type":4,"loc_token":"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"},{"display_type":1,"loc_token":"#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"},{"display_type":1,"loc_token":"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"}],"steam_deck_blog_url":"","search_id":null}}
+(14:09:15) DEBUG:   [Backend]:          ProtonDB data for 848450 {"bestReportedTier":"platinum","confidence":"strong","score":0.87,"tier":"platinum","total":174,"trendingTier":"platinum"}
+(14:09:15) DEBUG:   [Backend]:          SteamDeck data for 848450 {"success":1,"results":{"appid":848450,"resolved_category":2,"resolved_items":[{"display_type":3,"loc_token":"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"},{"display_type":4,"loc_token":"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"},{"display_type":4,"loc_token":"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"},{"display_type":4,"loc_token":"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"},{"display_type":4,"loc_token":"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"},{"display_type":1,"loc_token":"#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"},{"display_type":1,"loc_token":"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"}],"steam_deck_blog_url":"","search_id":null}}
+(14:09:17) DEBUG:   [Legendary]:        Using cached install info
+(14:10:01) INFO:    [Backend]:          Writing config for Foxglove
+(14:10:01) INFO:    [Backend]:          Changed config: wineVersion from {"bin":"/usr/bin/wine","name":"Wine Default - wine-9.20","type":"wine","wineserver":"/usr/bin/wineserver"} to {"bin":"/home/nick/.local/share/Steam/steamapps/common/Proton - Experimental/proton","name":"Proton - Proton - Experimental","type":"proton"}
+(14:10:01) INFO:    [Backend]:          Changed config: winePrefix from /home/nick/Games/Heroic/Prefixes/default to /home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero
+(14:10:01) INFO:    [Backend]:          Changed config: wineCrossoverBottle from undefined to 
+(14:10:01) DEBUG:   [Legendary]:        Using cached install info
+(14:10:01) INFO:    [DownloadManager]:  Subnautica Below Zero  was added to the download queue.
+(14:10:01) DEBUG:   [Legendary]:        Using cached install info
+(14:10:01) DEBUG:   [Legendary]:        Using cached install info
+(14:10:01) DEBUG:   [Legendary]:        Using cached install info
+(14:10:01) INFO:    [Legendary]:        Installing Foxglove: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary install Foxglove --platform Windows --base-path /home/nick/Games/Heroic --skip-dlcs -y --skip-sdl
+(14:10:01) DEBUG:   [Legendary]:        Logging to file "/home/nick/.config/heroic/GamesConfig/Foxglove.log"
+(14:10:01) INFO:    [Backend]:          Preventing machine to sleep
+(14:10:01) DEBUG:   [Legendary]:        Using cached install info
+(14:10:01) DEBUG:   [Legendary]:        Using cached install info
+(14:10:02) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 0%/0.00MB/00:00:00 Down: 0MB/s / Disk: 0MB/s
+(14:10:03) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 0.17%/9.46MB/00:06:30 Down: 9.45MB/s / Disk: 23.48MB/s
+(14:10:04) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 0.44%/24.15MB/00:04:17 Down: 14.68MB/s / Disk: 45.23MB/s
+(14:10:05) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 0.68%/37.02MB/00:05:12 Down: 12.86MB/s / Disk: 42.86MB/s
+(14:10:06) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 0.91%/49.32MB/00:05:30 Down: 12.28MB/s / Disk: 33.96MB/s
+(14:10:07) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 1.12%/60.95MB/00:04:07 Down: 11.61MB/s / Disk: 32.24MB/s
+(14:10:08) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 1.38%/74.89MB/00:04:40 Down: 13.92MB/s / Disk: 22.05MB/s
+(14:10:09) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 1.68%/91.31MB/00:04:40 Down: 16.42MB/s / Disk: 34.89MB/s
+(14:10:10) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 1.91%/103.69MB/00:05:07 Down: 12.36MB/s / Disk: 25.12MB/s
+(14:10:11) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 2.1%/114.44MB/00:05:18 Down: 10.73MB/s / Disk: 21.96MB/s
+(14:10:12) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 2.36%/128.21MB/00:04:52 Down: 13.75MB/s / Disk: 19.98MB/s
+(14:10:13) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 2.59%/140.76MB/00:05:20 Down: 12.52MB/s / Disk: 2.99MB/s
+(14:10:14) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 2.83%/153.63MB/00:05:41 Down: 12.86MB/s / Disk: 24.97MB/s
+(14:10:16) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 3.12%/169.46MB/00:04:36 Down: 15.8MB/s / Disk: 22.31MB/s
+(14:10:17) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 3.32%/180.68MB/00:02:52 Down: 11.19MB/s / Disk: 28.29MB/s
+(14:10:18) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 3.57%/194.35MB/00:02:20 Down: 13.66MB/s / Disk: 19.97MB/s
+(14:10:19) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 3.83%/208.21MB/00:01:58 Down: 13.84MB/s / Disk: 20.97MB/s
+(14:10:20) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 4.07%/221.36MB/00:01:42 Down: 13.12MB/s / Disk: 20.96MB/s
+(14:10:21) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 4.34%/236.13MB/00:01:27 Down: 14.74MB/s / Disk: 20.03MB/s
+(14:10:22) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 4.55%/247.54MB/00:01:12 Down: 11.4MB/s / Disk: 25.9MB/s
+(14:10:23) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 4.84%/263.40MB/00:01:06 Down: 15.82MB/s / Disk: 31.1MB/s
+(14:10:24) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 5.12%/278.16MB/00:01:08 Down: 14.74MB/s / Disk: 22.69MB/s
+(14:10:25) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 5.37%/291.90MB/00:01:08 Down: 13.72MB/s / Disk: 32.23MB/s
+(14:10:26) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 5.56%/302.06MB/00:01:09 Down: 10.15MB/s / Disk: 17.25MB/s
+(14:10:27) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 5.79%/314.69MB/00:01:11 Down: 12.61MB/s / Disk: 14.19MB/s
+(14:10:28) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 6.07%/329.92MB/00:01:13 Down: 15.21MB/s / Disk: 16.44MB/s
+(14:10:29) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 6.32%/343.81MB/00:01:14 Down: 13.87MB/s / Disk: 35.11MB/s
+(14:10:30) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 6.57%/357.34MB/00:01:16 Down: 13.52MB/s / Disk: 22.91MB/s
+(14:10:31) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 6.78%/368.81MB/00:01:18 Down: 11.45MB/s / Disk: 24.57MB/s
+(14:10:32) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 7.06%/384.04MB/00:01:19 Down: 15.21MB/s / Disk: 28.32MB/s
+(14:10:33) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 7.26%/394.98MB/00:01:22 Down: 10.93MB/s / Disk: 12.3MB/s
+(14:10:34) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 7.53%/409.42MB/00:01:24 Down: 14.41MB/s / Disk: 23.13MB/s
+(14:10:35) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 7.75%/421.52MB/00:01:26 Down: 12.08MB/s / Disk: 18.97MB/s
+(14:10:36) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 7.98%/433.72MB/00:01:29 Down: 12.2MB/s / Disk: 22.15MB/s
+(14:10:37) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 8.27%/449.85MB/00:01:30 Down: 16.11MB/s / Disk: 21.77MB/s
+(14:10:38) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 8.5%/462.30MB/00:01:32 Down: 12.43MB/s / Disk: 17.51MB/s
+(14:10:39) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 8.76%/476.09MB/00:01:34 Down: 13.77MB/s / Disk: 26.62MB/s
+(14:10:40) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 8.96%/487.15MB/00:01:36 Down: 11.04MB/s / Disk: 11.7MB/s
+(14:10:41) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 9.19%/499.53MB/00:01:38 Down: 12.35MB/s / Disk: 16.26MB/s
+(14:10:42) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 9.35%/508.39MB/00:01:41 Down: 8.85MB/s / Disk: 5.34MB/s
+(14:10:43) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 9.5%/516.35MB/00:01:43 Down: 7.95MB/s / Disk: 16.33MB/s
+(14:10:44) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 9.65%/524.62MB/00:01:45 Down: 8.26MB/s / Disk: 7.56MB/s
+(14:10:45) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 9.82%/534.01MB/00:01:48 Down: 9.37MB/s / Disk: 11.28MB/s
+(14:10:46) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 10%/543.78MB/00:01:50 Down: 9.75MB/s / Disk: 14.39MB/s
+(14:10:47) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 10.2%/554.78MB/00:01:52 Down: 10.98MB/s / Disk: 7.3MB/s
+(14:10:48) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 10.4%/565.29MB/00:01:54 Down: 10.5MB/s / Disk: 13.82MB/s
+(14:10:49) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 10.66%/579.43MB/00:01:55 Down: 14.12MB/s / Disk: 28.4MB/s
+(14:10:50) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 10.89%/592.06MB/00:01:57 Down: 12.61MB/s / Disk: 20.18MB/s
+(14:10:51) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 11.18%/608.01MB/00:01:59 Down: 15.92MB/s / Disk: 20.17MB/s
+(14:10:52) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 11.4%/619.73MB/00:02:00 Down: 11.7MB/s / Disk: 18.76MB/s
+(14:10:53) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 11.61%/631.28MB/00:02:02 Down: 11.54MB/s / Disk: 15.33MB/s
+(14:10:54) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 11.87%/645.61MB/00:02:04 Down: 14.3MB/s / Disk: 17.88MB/s
+(14:10:55) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 12.16%/661.04MB/00:02:05 Down: 15.43MB/s / Disk: 27.26MB/s
+(14:10:56) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 12.4%/674.18MB/00:02:07 Down: 13.11MB/s / Disk: 19.39MB/s
+(14:10:57) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 12.63%/686.47MB/00:02:08 Down: 12.27MB/s / Disk: 16.63MB/s
+(14:10:58) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 12.87%/699.82MB/00:02:10 Down: 13.35MB/s / Disk: 15.64MB/s
+(14:10:59) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 13.09%/711.80MB/00:02:11 Down: 11.95MB/s / Disk: 21.62MB/s
+(14:11:00) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 13.36%/726.55MB/00:02:13 Down: 14.73MB/s / Disk: 21.65MB/s
+(14:11:01) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 13.57%/737.73MB/00:02:16 Down: 11.16MB/s / Disk: 0MB/s
+(14:11:02) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 13.84%/752.69MB/00:02:17 Down: 14.94MB/s / Disk: 28.43MB/s
+(14:11:03) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 14.12%/767.72MB/00:02:19 Down: 15.01MB/s / Disk: 3MB/s
+(14:11:04) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 14.38%/781.70MB/00:02:20 Down: 13.95MB/s / Disk: 34.66MB/s
+(14:11:05) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 14.63%/795.23MB/00:02:22 Down: 13.51MB/s / Disk: 3.99MB/s
+(14:11:06) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 14.81%/805.17MB/00:02:23 Down: 9.92MB/s / Disk: 48.98MB/s
+(14:11:07) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 15.07%/819.62MB/00:02:25 Down: 14.42MB/s / Disk: 23.53MB/s
+(14:11:08) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 15.32%/832.89MB/00:02:26 Down: 13.25MB/s / Disk: 13.08MB/s
+(14:11:09) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 15.6%/848.11MB/00:02:28 Down: 15.17MB/s / Disk: 11.67MB/s
+(14:11:10) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 15.79%/858.64MB/00:02:30 Down: 10.51MB/s / Disk: 20.99MB/s
+(14:11:11) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 16.07%/873.92MB/00:02:31 Down: 15.26MB/s / Disk: 25.63MB/s
+(14:11:12) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 16.32%/887.33MB/00:02:33 Down: 13.38MB/s / Disk: 18.42MB/s
+(14:11:13) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 16.57%/900.93MB/00:02:34 Down: 13.59MB/s / Disk: 19.99MB/s
+(14:11:14) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 16.79%/913.16MB/00:02:36 Down: 12.2MB/s / Disk: 14.68MB/s
+(14:11:15) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 17.06%/927.52MB/00:02:37 Down: 14.34MB/s / Disk: 17.98MB/s
+(14:11:16) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 17.28%/939.46MB/00:02:39 Down: 11.92MB/s / Disk: 6.27MB/s
+(14:11:17) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 17.52%/952.84MB/00:02:40 Down: 13.36MB/s / Disk: 26.58MB/s
+(14:11:18) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 17.77%/966.05MB/00:02:42 Down: 13.19MB/s / Disk: 24.07MB/s
+(14:11:19) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 18%/978.51MB/00:02:43 Down: 12.45MB/s / Disk: 16.5MB/s
+(14:11:20) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 18.28%/993.70MB/00:02:44 Down: 15.17MB/s / Disk: 17.57MB/s
+(14:11:21) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 18.47%/1004.02MB/00:02:45 Down: 10.3MB/s / Disk: 15.86MB/s
+(14:11:22) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 18.77%/1020.52MB/00:02:46 Down: 16.48MB/s / Disk: 20.88MB/s
+(14:11:23) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 19.01%/1033.40MB/00:02:47 Down: 12.86MB/s / Disk: 15.19MB/s
+(14:11:24) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 19.26%/1047.44MB/00:02:49 Down: 14.02MB/s / Disk: 15.16MB/s
+(14:11:25) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 19.51%/1060.58MB/00:02:50 Down: 13.12MB/s / Disk: 23.65MB/s
+(14:11:26) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 19.73%/1072.69MB/00:02:51 Down: 12.1MB/s / Disk: 19.71MB/s
+(14:11:27) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 20.01%/1087.73MB/00:02:52 Down: 15.01MB/s / Disk: 21.2MB/s
+(14:11:28) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 20.21%/1098.96MB/00:02:53 Down: 11.22MB/s / Disk: 20.44MB/s
+(14:11:29) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 20.46%/1112.38MB/00:02:54 Down: 13.39MB/s / Disk: 17.46MB/s
+(14:11:30) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 20.71%/1126.04MB/00:02:56 Down: 13.64MB/s / Disk: 14.51MB/s
+(14:11:31) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 20.96%/1139.48MB/00:02:57 Down: 13.42MB/s / Disk: 11.31MB/s
+(14:11:32) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 21.24%/1154.89MB/00:02:58 Down: 15.39MB/s / Disk: 27.16MB/s
+(14:11:33) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 21.47%/1167.61MB/00:02:59 Down: 12.69MB/s / Disk: 24.96MB/s
+(14:11:34) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 21.73%/1181.45MB/00:03:00 Down: 13.81MB/s / Disk: 9.98MB/s
+(14:11:35) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 21.96%/1194.23MB/00:03:00 Down: 12.77MB/s / Disk: 22.67MB/s
+(14:11:36) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 22.22%/1207.93MB/00:03:00 Down: 13.67MB/s / Disk: 23.63MB/s
+(14:11:37) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 22.45%/1220.81MB/00:03:00 Down: 12.87MB/s / Disk: 26.56MB/s
+(14:11:38) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 22.71%/1234.88MB/00:03:01 Down: 14.04MB/s / Disk: 30.96MB/s
+(14:11:39) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 22.94%/1247.43MB/00:03:02 Down: 12.53MB/s / Disk: 25.98MB/s
+(14:11:40) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 23.17%/1259.84MB/00:03:02 Down: 12.4MB/s / Disk: 21.97MB/s
+(14:11:41) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 23.46%/1275.53MB/00:03:02 Down: 15.66MB/s / Disk: 23.92MB/s
+(14:11:42) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 23.68%/1287.68MB/00:03:02 Down: 12.13MB/s / Disk: 33.43MB/s
+(14:11:43) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 23.92%/1300.82MB/00:03:03 Down: 13.11MB/s / Disk: 17.01MB/s
+(14:11:44) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 24.14%/1312.33MB/00:03:03 Down: 11.48MB/s / Disk: 24.42MB/s
+(14:11:45) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 24.4%/1326.78MB/00:03:04 Down: 14.42MB/s / Disk: 16.46MB/s
+(14:11:46) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 24.7%/1342.99MB/00:03:03 Down: 16.18MB/s / Disk: 29.86MB/s
+(14:11:47) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 24.94%/1356.25MB/00:03:02 Down: 13.24MB/s / Disk: 30.27MB/s
+(14:11:48) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 25.22%/1371.36MB/00:03:03 Down: 15.09MB/s / Disk: 29.08MB/s
+(14:11:49) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 25.41%/1381.42MB/00:03:04 Down: 10.04MB/s / Disk: 14.52MB/s
+(14:11:50) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 25.62%/1392.99MB/00:03:04 Down: 11.56MB/s / Disk: 27.36MB/s
+(14:11:51) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 25.82%/1403.80MB/00:03:05 Down: 10.79MB/s / Disk: 17.61MB/s
+(14:11:52) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 26.1%/1419.27MB/00:03:06 Down: 15.45MB/s / Disk: 15.07MB/s
+(14:11:53) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 26.36%/1433.30MB/00:03:07 Down: 14MB/s / Disk: 18.01MB/s
+(14:11:54) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 26.68%/1450.77MB/00:03:08 Down: 17.45MB/s / Disk: 20.97MB/s
+(14:11:55) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 26.93%/1464.43MB/00:03:07 Down: 13.63MB/s / Disk: 35.02MB/s
+(14:11:56) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 27.13%/1475.16MB/00:03:08 Down: 10.72MB/s / Disk: 24.83MB/s
+(14:11:57) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 27.37%/1488.29MB/00:03:07 Down: 13.11MB/s / Disk: 30.96MB/s
+(14:11:58) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 27.64%/1502.96MB/00:03:07 Down: 14.66MB/s / Disk: 27.97MB/s
+(14:11:59) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 27.86%/1515.02MB/00:03:08 Down: 12.04MB/s / Disk: 22.16MB/s
+(14:12:00) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 28.11%/1528.37MB/00:03:08 Down: 13.32MB/s / Disk: 29.01MB/s
+(14:12:01) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 28.39%/1543.55MB/00:03:09 Down: 15.16MB/s / Disk: 24.18MB/s
+(14:12:02) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 28.63%/1556.88MB/00:03:09 Down: 13.29MB/s / Disk: 34.24MB/s
+(14:12:03) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 28.91%/1571.67MB/00:03:09 Down: 14.77MB/s / Disk: 27.1MB/s
+(14:12:04) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 29.09%/1581.95MB/00:03:08 Down: 10.26MB/s / Disk: 25.02MB/s
+(14:12:05) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 29.39%/1598.11MB/00:03:07 Down: 16.13MB/s / Disk: 30.18MB/s
+(14:12:06) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 29.57%/1607.97MB/00:03:06 Down: 9.84MB/s / Disk: 39.69MB/s
+(14:12:07) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 29.86%/1623.52MB/00:03:06 Down: 15.52MB/s / Disk: 33.26MB/s
+(14:12:08) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 30.11%/1637.35MB/00:03:05 Down: 13.81MB/s / Disk: 30.63MB/s
+(14:12:09) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 30.34%/1649.56MB/00:03:06 Down: 12.2MB/s / Disk: 21.22MB/s
+(14:12:10) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 30.57%/1661.93MB/00:03:06 Down: 12.34MB/s / Disk: 26.69MB/s
+(14:12:11) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 30.8%/1674.93MB/00:03:06 Down: 12.98MB/s / Disk: 22.47MB/s
+(14:12:12) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 31.07%/1689.44MB/00:03:06 Down: 14.48MB/s / Disk: 25.67MB/s
+(14:12:13) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 31.33%/1703.64MB/00:03:06 Down: 14.18MB/s / Disk: 31.04MB/s
+(14:12:14) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 31.56%/1715.97MB/00:03:07 Down: 12.32MB/s / Disk: 28.34MB/s
+(14:12:15) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 31.82%/1730.23MB/00:03:08 Down: 14.24MB/s / Disk: 14.84MB/s
+(14:12:16) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 32.06%/1743.20MB/00:03:07 Down: 12.95MB/s / Disk: 42.33MB/s
+(14:12:17) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 32.32%/1757.30MB/00:03:07 Down: 14.08MB/s / Disk: 21.41MB/s
+(14:12:18) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 32.53%/1768.81MB/00:03:07 Down: 11.49MB/s / Disk: 35MB/s
+(14:12:19) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 32.8%/1783.62MB/00:03:06 Down: 14.79MB/s / Disk: 27.26MB/s
+(14:12:20) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 32.97%/1792.72MB/00:03:06 Down: 9.08MB/s / Disk: 20.7MB/s
+(14:12:21) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 33.27%/1809.16MB/00:03:05 Down: 16.4MB/s / Disk: 34.35MB/s
+(14:12:22) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 33.55%/1824.21MB/00:03:04 Down: 15.03MB/s / Disk: 25.91MB/s
+(14:12:23) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 33.76%/1835.72MB/00:03:05 Down: 11.5MB/s / Disk: 5.49MB/s
+(14:12:24) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 34.05%/1851.23MB/00:03:05 Down: 15.47MB/s / Disk: 33.73MB/s
+(14:12:25) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 34.25%/1862.24MB/00:03:06 Down: 11MB/s / Disk: 10.6MB/s
+(14:12:26) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 34.51%/1876.30MB/00:03:05 Down: 14.03MB/s / Disk: 25.7MB/s
+(14:12:27) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 34.77%/1890.33MB/00:03:05 Down: 14.01MB/s / Disk: 23.71MB/s
+(14:12:28) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 35.04%/1905.35MB/00:03:05 Down: 15MB/s / Disk: 34.33MB/s
+(14:12:29) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 35.24%/1916.20MB/00:03:05 Down: 10.83MB/s / Disk: 14.33MB/s
+(14:12:30) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 35.48%/1929.42MB/00:03:05 Down: 13.2MB/s / Disk: 26.09MB/s
+(14:12:31) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 35.74%/1943.25MB/00:03:05 Down: 13.8MB/s / Disk: 27.56MB/s
+(14:12:32) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 35.97%/1955.56MB/00:03:05 Down: 12.29MB/s / Disk: 31.28MB/s
+(14:12:33) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 36.25%/1970.97MB/00:03:05 Down: 15.39MB/s / Disk: 21.93MB/s
+(14:12:34) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 36.48%/1983.75MB/00:03:04 Down: 12.76MB/s / Disk: 26.59MB/s
+(14:12:35) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 36.71%/1996.22MB/00:03:05 Down: 12.44MB/s / Disk: 27.64MB/s
+(14:12:36) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 36.96%/2009.36MB/00:03:04 Down: 13.13MB/s / Disk: 30.51MB/s
+(14:12:37) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 37.18%/2021.54MB/00:03:05 Down: 12.16MB/s / Disk: 8.37MB/s
+(14:12:38) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 37.38%/2032.47MB/00:03:03 Down: 10.91MB/s / Disk: 23.3MB/s
+(14:12:39) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 37.65%/2047.07MB/00:03:03 Down: 14.57MB/s / Disk: 20.41MB/s
+(14:12:40) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 37.96%/2063.91MB/00:03:02 Down: 16.82MB/s / Disk: 26.01MB/s
+(14:12:41) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 38.18%/2076.17MB/00:03:02 Down: 12.23MB/s / Disk: 32.15MB/s
+(14:12:42) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 38.4%/2087.72MB/00:03:03 Down: 11.52MB/s / Disk: 23.09MB/s
+(14:12:43) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 38.67%/2102.87MB/00:03:03 Down: 15.12MB/s / Disk: 25.87MB/s
+(14:12:44) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 38.98%/2119.38MB/00:03:03 Down: 16.48MB/s / Disk: 42.89MB/s
+(14:12:45) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 39.2%/2131.24MB/00:03:03 Down: 11.84MB/s / Disk: 27.75MB/s
+(14:12:46) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 39.41%/2142.86MB/00:03:02 Down: 11.61MB/s / Disk: 13.18MB/s
+(14:12:47) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 39.61%/2153.89MB/00:03:00 Down: 11.01MB/s / Disk: 33.09MB/s
+(14:12:48) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 39.93%/2170.91MB/00:02:58 Down: 16.99MB/s / Disk: 16.01MB/s
+(14:12:49) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 40.16%/2183.69MB/00:02:54 Down: 12.75MB/s / Disk: 32.45MB/s
+(14:12:50) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 40.39%/2196.37MB/00:02:53 Down: 12.65MB/s / Disk: 15.13MB/s
+(14:12:51) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 40.62%/2208.54MB/00:02:52 Down: 12.16MB/s / Disk: 19.79MB/s
+(14:12:52) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 40.88%/2222.97MB/00:02:52 Down: 14.41MB/s / Disk: 19.31MB/s
+(14:12:53) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 41.14%/2237.14MB/00:02:50 Down: 14.14MB/s / Disk: 24.18MB/s
+(14:12:54) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 41.41%/2251.39MB/00:02:48 Down: 14.23MB/s / Disk: 28.31MB/s
+(14:12:55) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 41.64%/2264.05MB/00:02:47 Down: 12.64MB/s / Disk: 20.72MB/s
+(14:12:56) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 41.88%/2277.18MB/00:02:47 Down: 13.11MB/s / Disk: 19.78MB/s
+(14:12:57) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 42.12%/2290.24MB/00:02:42 Down: 13.03MB/s / Disk: 23.57MB/s
+(14:12:58) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 42.34%/2301.96MB/00:02:34 Down: 11.71MB/s / Disk: 43.84MB/s
+(14:12:59) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 42.62%/2317.39MB/00:02:35 Down: 15.4MB/s / Disk: 32.07MB/s
+(14:13:00) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 42.84%/2329.58MB/00:02:35 Down: 12.17MB/s / Disk: 17.34MB/s
+(14:13:01) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 43.12%/2344.32MB/00:02:35 Down: 14.71MB/s / Disk: 25.29MB/s
+(14:13:02) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 43.36%/2357.88MB/00:02:36 Down: 13.53MB/s / Disk: 22.11MB/s
+(14:13:03) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 43.62%/2371.61MB/00:02:35 Down: 13.71MB/s / Disk: 50.61MB/s
+(14:13:04) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 43.86%/2384.55MB/00:02:35 Down: 12.93MB/s / Disk: 31.7MB/s
+(14:13:05) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 44.11%/2398.51MB/00:02:35 Down: 13.93MB/s / Disk: 30.53MB/s
+(14:13:06) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 44.34%/2410.65MB/00:02:36 Down: 12.11MB/s / Disk: 14.71MB/s
+(14:13:07) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 44.6%/2424.94MB/00:02:36 Down: 14.27MB/s / Disk: 25.18MB/s
+(14:13:08) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 44.86%/2438.92MB/00:02:36 Down: 13.96MB/s / Disk: 35.07MB/s
+(14:13:09) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 45.09%/2451.66MB/00:02:36 Down: 12.73MB/s / Disk: 13.74MB/s
+(14:13:10) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 45.27%/2461.30MB/00:02:34 Down: 9.63MB/s / Disk: 22.18MB/s
+(14:13:11) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 45.55%/2476.49MB/00:02:31 Down: 15.17MB/s / Disk: 15.86MB/s
+(14:13:12) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 45.8%/2490.52MB/00:02:30 Down: 14.01MB/s / Disk: 23.28MB/s
+(14:13:13) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 46.08%/2505.34MB/00:02:30 Down: 14.8MB/s / Disk: 23.42MB/s
+(14:13:14) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 46.35%/2519.94MB/00:02:27 Down: 14.59MB/s / Disk: 41.47MB/s
+(14:13:15) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 46.58%/2532.70MB/00:02:26 Down: 12.74MB/s / Disk: 28.15MB/s
+(14:13:16) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 46.8%/2544.61MB/00:02:25 Down: 11.89MB/s / Disk: 36.81MB/s
+(14:13:17) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 47.07%/2559.52MB/00:02:24 Down: 14.89MB/s / Disk: 39.46MB/s
+(14:13:18) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 47.33%/2573.33MB/00:02:24 Down: 13.81MB/s / Disk: 22.92MB/s
+(14:13:19) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 47.38%/2575.94MB/00:02:24 Down: 2.6MB/s / Disk: 15.73MB/s
+(14:13:20) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 47.45%/2579.84MB/00:02:25 Down: 3.89MB/s / Disk: 0MB/s
+(14:13:21) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 47.53%/2584.29MB/00:02:25 Down: 4.44MB/s / Disk: 0MB/s
+(14:13:22) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 47.76%/2596.76MB/00:02:25 Down: 12.45MB/s / Disk: 4.9MB/s
+(14:13:23) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 48.01%/2610.63MB/00:02:25 Down: 13.84MB/s / Disk: 10.74MB/s
+(14:13:24) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 48.26%/2624.23MB/00:02:21 Down: 13.59MB/s / Disk: 44.03MB/s
+(14:13:25) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 48.56%/2640.30MB/00:02:19 Down: 16.04MB/s / Disk: 23.87MB/s
+(14:13:26) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 48.79%/2652.76MB/00:02:18 Down: 12.44MB/s / Disk: 23.67MB/s
+(14:13:27) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 49.01%/2664.64MB/00:02:16 Down: 11.85MB/s / Disk: 37.84MB/s
+(14:13:28) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 49.32%/2681.56MB/00:02:16 Down: 16.9MB/s / Disk: 25.6MB/s
+(14:13:29) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 49.52%/2692.51MB/00:02:16 Down: 10.94MB/s / Disk: 25.5MB/s
+(14:13:30) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 49.78%/2706.46MB/00:02:13 Down: 13.93MB/s / Disk: 21.84MB/s
+(14:13:31) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 50.01%/2718.98MB/00:02:13 Down: 12.5MB/s / Disk: 0MB/s
+(14:13:32) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 50.29%/2734.17MB/00:02:14 Down: 15.16MB/s / Disk: 0MB/s
+(14:13:33) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 50.47%/2744.02MB/00:02:10 Down: 9.83MB/s / Disk: 36.85MB/s
+(14:13:34) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 50.78%/2761.01MB/00:02:05 Down: 16.96MB/s / Disk: 51.69MB/s
+(14:13:35) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 51%/2773.00MB/00:02:04 Down: 11.97MB/s / Disk: 15.91MB/s
+(14:13:36) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 51.22%/2784.82MB/00:02:02 Down: 11.8MB/s / Disk: 8.98MB/s
+(14:13:37) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 51.49%/2799.90MB/00:01:57 Down: 15.04MB/s / Disk: 32.58MB/s
+(14:13:38) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 51.74%/2813.27MB/00:01:58 Down: 13.35MB/s / Disk: 0MB/s
+(14:13:39) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 52%/2827.26MB/00:01:58 Down: 13.97MB/s / Disk: 12.1MB/s
+(14:13:40) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 52.19%/2837.64MB/00:01:58 Down: 10.36MB/s / Disk: 0MB/s
+(14:13:41) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 52.43%/2850.64MB/00:01:59 Down: 12.97MB/s / Disk: 0MB/s
+(14:13:42) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 52.73%/2867.18MB/00:01:51 Down: 16.51MB/s / Disk: 104.54MB/s
+(14:13:43) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 52.95%/2879.11MB/00:01:51 Down: 11.9MB/s / Disk: 7.99MB/s
+(14:13:44) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 53.22%/2893.99MB/00:01:52 Down: 14.86MB/s / Disk: 18.16MB/s
+(14:13:45) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 53.44%/2905.91MB/00:01:52 Down: 11.9MB/s / Disk: 11.22MB/s
+(14:13:46) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 53.65%/2916.84MB/00:01:52 Down: 10.91MB/s / Disk: 12.98MB/s
+(14:13:47) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 53.95%/2933.68MB/00:01:52 Down: 16.81MB/s / Disk: 15.9MB/s
+(14:13:48) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 54.16%/2944.62MB/00:01:53 Down: 10.93MB/s / Disk: 4.99MB/s
+(14:13:49) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 54.39%/2957.46MB/00:01:53 Down: 12.81MB/s / Disk: 17.27MB/s
+(14:13:50) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 54.65%/2971.32MB/00:01:53 Down: 13.84MB/s / Disk: 13.46MB/s
+(14:13:51) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 54.89%/2984.26MB/00:01:54 Down: 12.93MB/s / Disk: 13.65MB/s
+(14:13:52) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 55.12%/2997.20MB/00:01:54 Down: 12.92MB/s / Disk: 12.37MB/s
+(14:13:53) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 55.4%/3012.06MB/00:01:54 Down: 14.83MB/s / Disk: 18.56MB/s
+(14:13:54) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 55.63%/3025.01MB/00:01:54 Down: 12.93MB/s / Disk: 12.01MB/s
+(14:13:55) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 55.85%/3036.90MB/00:01:54 Down: 11.86MB/s / Disk: 13.03MB/s
+(14:13:56) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 56.12%/3051.65MB/00:01:55 Down: 14.71MB/s / Disk: 14.79MB/s
+(14:13:57) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 56.4%/3066.62MB/00:01:55 Down: 14.95MB/s / Disk: 15.07MB/s
+(14:13:58) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 56.62%/3078.52MB/00:01:55 Down: 11.87MB/s / Disk: 11.98MB/s
+(14:13:59) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 56.9%/3093.90MB/00:01:55 Down: 15.36MB/s / Disk: 16.83MB/s
+(14:14:00) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 57.14%/3106.88MB/00:01:56 Down: 12.96MB/s / Disk: 10.11MB/s
+(14:14:01) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 57.38%/3119.87MB/00:01:56 Down: 12.97MB/s / Disk: 15.8MB/s
+(14:14:02) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 57.62%/3132.85MB/00:01:56 Down: 12.97MB/s / Disk: 10.98MB/s
+(14:14:03) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 57.86%/3145.84MB/00:01:56 Down: 12.96MB/s / Disk: 14.03MB/s
+(14:14:04) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 58.1%/3158.81MB/00:01:56 Down: 12.94MB/s / Disk: 13.97MB/s
+(14:14:05) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 58.35%/3172.79MB/00:01:57 Down: 13.96MB/s / Disk: 13.35MB/s
+(14:14:06) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 58.59%/3185.77MB/00:01:57 Down: 12.96MB/s / Disk: 12.53MB/s
+(14:14:07) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 58.85%/3199.75MB/00:01:57 Down: 13.96MB/s / Disk: 13.02MB/s
+(14:14:08) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 59.07%/3211.72MB/00:01:57 Down: 11.96MB/s / Disk: 13.53MB/s
+(14:14:09) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 59.33%/3225.71MB/00:01:58 Down: 13.96MB/s / Disk: 12.23MB/s
+(14:14:10) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 59.56%/3238.68MB/00:01:58 Down: 12.95MB/s / Disk: 12.51MB/s
+(14:14:11) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 59.82%/3252.66MB/00:01:58 Down: 13.95MB/s / Disk: 14.58MB/s
+(14:14:12) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 60.08%/3266.63MB/00:01:58 Down: 13.95MB/s / Disk: 15.14MB/s
+(14:14:13) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 60.35%/3281.60MB/00:01:58 Down: 14.95MB/s / Disk: 15.03MB/s
+(14:14:14) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 60.57%/3293.59MB/00:01:59 Down: 11.96MB/s / Disk: 10.18MB/s
+(14:14:15) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 60.81%/3306.58MB/00:01:59 Down: 12.98MB/s / Disk: 15.54MB/s
+(14:14:16) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 61.07%/3320.56MB/00:01:59 Down: 13.95MB/s / Disk: 11.16MB/s
+(14:14:17) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 61.29%/3332.55MB/00:01:59 Down: 11.98MB/s / Disk: 11.02MB/s
+(14:14:18) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 61.55%/3346.53MB/00:01:59 Down: 13.95MB/s / Disk: 17.92MB/s
+(14:14:19) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 61.82%/3361.52MB/00:01:59 Down: 14.97MB/s / Disk: 12.99MB/s
+(14:14:20) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 62.01%/3371.51MB/00:02:00 Down: 9.98MB/s / Disk: 11.14MB/s
+(14:14:21) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 62.26%/3385.47MB/00:02:00 Down: 13.93MB/s / Disk: 12.82MB/s
+(14:14:22) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 62.54%/3400.45MB/00:02:00 Down: 14.96MB/s / Disk: 13.91MB/s
+(14:14:23) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 62.78%/3413.41MB/00:02:00 Down: 12.94MB/s / Disk: 14.68MB/s
+(14:14:24) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 63%/3425.40MB/00:02:00 Down: 11.97MB/s / Disk: 10.05MB/s
+(14:14:25) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 63.27%/3440.39MB/00:02:00 Down: 14.97MB/s / Disk: 17.44MB/s
+(14:14:26) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 63.51%/3453.38MB/00:02:01 Down: 12.96MB/s / Disk: 13.06MB/s
+(14:14:27) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 63.75%/3466.36MB/00:02:01 Down: 12.97MB/s / Disk: 12.58MB/s
+(14:14:28) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 64.03%/3481.33MB/00:02:01 Down: 14.94MB/s / Disk: 15.23MB/s
+(14:14:29) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 64.3%/3496.00MB/00:02:01 Down: 14.65MB/s / Disk: 12.48MB/s
+(14:14:30) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 64.5%/3506.83MB/00:02:01 Down: 10.81MB/s / Disk: 7.65MB/s
+(14:14:31) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 64.73%/3519.81MB/00:02:01 Down: 12.96MB/s / Disk: 16.11MB/s
+(14:14:32) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 64.95%/3531.79MB/00:02:02 Down: 11.96MB/s / Disk: 12.12MB/s
+(14:14:33) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 65.23%/3546.77MB/00:02:02 Down: 14.96MB/s / Disk: 16.94MB/s
+(14:14:34) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 65.52%/3562.74MB/00:02:02 Down: 15.94MB/s / Disk: 16.71MB/s
+(14:14:35) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 65.71%/3572.73MB/00:02:02 Down: 9.97MB/s / Disk: 11.59MB/s
+(14:14:36) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 65.97%/3586.72MB/00:02:02 Down: 13.96MB/s / Disk: 14.76MB/s
+(14:14:37) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 66.24%/3601.71MB/00:02:02 Down: 14.97MB/s / Disk: 15.01MB/s
+(14:14:38) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 66.5%/3615.70MB/00:02:02 Down: 13.97MB/s / Disk: 15.15MB/s
+(14:14:39) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 66.7%/3626.69MB/00:02:02 Down: 10.97MB/s / Disk: 9.16MB/s
+(14:14:40) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 66.94%/3639.67MB/00:02:02 Down: 12.95MB/s / Disk: 14.73MB/s
+(14:14:41) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 67.18%/3652.66MB/00:02:03 Down: 12.97MB/s / Disk: 14.54MB/s
+(14:14:42) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 67.44%/3666.64MB/00:02:03 Down: 13.95MB/s / Disk: 13.23MB/s
+(14:14:43) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 67.66%/3678.63MB/00:02:03 Down: 11.98MB/s / Disk: 15.33MB/s
+(14:14:44) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 67.95%/3694.56MB/00:02:03 Down: 15.9MB/s / Disk: 18.24MB/s
+(14:14:45) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 68.19%/3707.54MB/00:02:03 Down: 12.96MB/s / Disk: 11.52MB/s
+(14:14:46) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 68.43%/3720.53MB/00:02:03 Down: 12.97MB/s / Disk: 14.34MB/s
+(14:14:47) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 68.67%/3733.53MB/00:02:03 Down: 12.98MB/s / Disk: 15.7MB/s
+(14:14:48) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 68.89%/3745.52MB/00:02:03 Down: 11.97MB/s / Disk: 10.8MB/s
+(14:14:49) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 69.18%/3761.51MB/00:02:03 Down: 15.96MB/s / Disk: 16.52MB/s
+(14:14:50) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 69.44%/3775.92MB/00:02:03 Down: 14.38MB/s / Disk: 15.13MB/s
+(14:14:51) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 69.63%/3785.91MB/00:02:04 Down: 9.98MB/s / Disk: 5.21MB/s
+(14:14:52) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 69.9%/3800.83MB/00:02:04 Down: 14.89MB/s / Disk: 22.45MB/s
+(14:14:53) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 70.12%/3812.80MB/00:02:04 Down: 11.95MB/s / Disk: 12.23MB/s
+(14:14:54) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 70.43%/3829.74MB/00:02:04 Down: 16.91MB/s / Disk: 16.72MB/s
+(14:14:55) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 70.64%/3840.64MB/00:02:04 Down: 10.88MB/s / Disk: 10.24MB/s
+(14:14:56) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 70.89%/3854.47MB/00:02:04 Down: 13.8MB/s / Disk: 13.03MB/s
+(14:14:57) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 71.09%/3865.46MB/00:02:04 Down: 10.97MB/s / Disk: 11.3MB/s
+(14:14:58) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 71.39%/3881.43MB/00:02:04 Down: 15.94MB/s / Disk: 17.58MB/s
+(14:14:59) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 71.64%/3895.32MB/00:02:04 Down: 13.87MB/s / Disk: 12.06MB/s
+(14:15:00) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 71.8%/3904.13MB/00:02:05 Down: 8.79MB/s / Disk: 8.21MB/s
+(14:15:01) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 72.05%/3917.67MB/00:02:05 Down: 13.52MB/s / Disk: 17.83MB/s
+(14:15:02) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 72.36%/3934.65MB/00:02:05 Down: 16.95MB/s / Disk: 17.97MB/s
+(14:15:03) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 72.58%/3946.64MB/00:02:05 Down: 11.97MB/s / Disk: 9.99MB/s
+(14:15:04) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 72.84%/3960.61MB/00:02:05 Down: 13.94MB/s / Disk: 14.97MB/s
+(14:15:05) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 73.06%/3972.60MB/00:02:05 Down: 11.97MB/s / Disk: 12.98MB/s
+(14:15:06) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 73.32%/3986.56MB/00:02:05 Down: 13.94MB/s / Disk: 11.98MB/s
+(14:15:07) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 73.56%/3999.55MB/00:02:06 Down: 12.96MB/s / Disk: 11.98MB/s
+(14:15:08) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 73.82%/4013.54MB/00:02:06 Down: 13.96MB/s / Disk: 16.97MB/s
+(14:15:09) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 74.05%/4026.50MB/00:02:06 Down: 12.95MB/s / Disk: 11.58MB/s
+(14:15:10) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 74.29%/4039.47MB/00:02:06 Down: 12.95MB/s / Disk: 9.98MB/s
+(14:15:11) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 74.48%/4049.45MB/00:02:06 Down: 9.96MB/s / Disk: 13.98MB/s
+(14:15:12) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 74.79%/4066.41MB/00:02:06 Down: 16.92MB/s / Disk: 12.98MB/s
+(14:15:13) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 75.01%/4078.37MB/00:02:07 Down: 11.95MB/s / Disk: 11.99MB/s
+(14:15:14) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 75.23%/4090.36MB/00:02:07 Down: 11.96MB/s / Disk: 14.97MB/s
+(14:15:15) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 75.49%/4104.34MB/00:02:07 Down: 13.96MB/s / Disk: 13.98MB/s
+(14:15:16) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 75.78%/4120.28MB/00:02:07 Down: 15.92MB/s / Disk: 17.96MB/s
+(14:15:17) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 76.04%/4134.28MB/00:02:07 Down: 13.98MB/s / Disk: 12.98MB/s
+(14:15:18) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 76.24%/4145.26MB/00:02:07 Down: 10.96MB/s / Disk: 10.98MB/s
+(14:15:19) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 76.48%/4158.23MB/00:02:07 Down: 12.95MB/s / Disk: 12.98MB/s
+(14:15:20) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 76.75%/4173.21MB/00:02:07 Down: 14.95MB/s / Disk: 12.97MB/s
+(14:15:21) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 76.97%/4185.11MB/00:02:08 Down: 11.89MB/s / Disk: 12.81MB/s
+(14:15:22) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 77.21%/4198.04MB/00:02:08 Down: 12.9MB/s / Disk: 12.97MB/s
+(14:15:23) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 77.45%/4211.03MB/00:02:08 Down: 12.97MB/s / Disk: 15.31MB/s
+(14:15:24) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 77.7%/4225.00MB/00:02:08 Down: 13.95MB/s / Disk: 10.98MB/s
+(14:15:25) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 78%/4240.99MB/00:02:08 Down: 15.96MB/s / Disk: 18.97MB/s
+(14:15:26) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 78.18%/4250.99MB/00:02:08 Down: 9.98MB/s / Disk: 7.99MB/s
+(14:15:27) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 78.48%/4266.93MB/00:02:08 Down: 15.92MB/s / Disk: 17.98MB/s
+(14:15:28) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 78.66%/4276.91MB/00:02:08 Down: 9.97MB/s / Disk: 9.98MB/s
+(14:15:29) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 78.92%/4290.88MB/00:02:09 Down: 13.95MB/s / Disk: 12.98MB/s
+(14:15:30) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 79.17%/4304.88MB/00:02:09 Down: 13.97MB/s / Disk: 12.98MB/s
+(14:15:31) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 79.41%/4317.83MB/00:02:09 Down: 12.94MB/s / Disk: 13.98MB/s
+(14:15:32) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 79.67%/4331.80MB/00:02:09 Down: 13.94MB/s / Disk: 13.97MB/s
+(14:15:33) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 79.93%/4345.78MB/00:02:09 Down: 13.95MB/s / Disk: 13.98MB/s
+(14:15:34) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 80.15%/4357.77MB/00:02:09 Down: 11.97MB/s / Disk: 12.98MB/s
+(14:15:35) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 80.42%/4372.75MB/00:02:09 Down: 14.96MB/s / Disk: 14.98MB/s
+(14:15:36) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 80.68%/4386.74MB/00:02:09 Down: 13.97MB/s / Disk: 12.32MB/s
+(14:15:37) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 80.9%/4398.74MB/00:02:10 Down: 11.98MB/s / Disk: 10.99MB/s
+(14:15:38) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 81.12%/4410.72MB/00:02:10 Down: 11.96MB/s / Disk: 13.97MB/s
+(14:15:39) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 81.38%/4424.71MB/00:02:10 Down: 13.96MB/s / Disk: 13.98MB/s
+(14:15:40) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 81.63%/4438.69MB/00:02:10 Down: 13.96MB/s / Disk: 12.98MB/s
+(14:15:41) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 81.89%/4452.66MB/00:02:10 Down: 13.95MB/s / Disk: 13.98MB/s
+(14:15:42) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 82.09%/4463.62MB/00:02:10 Down: 10.94MB/s / Disk: 10.98MB/s
+(14:15:43) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 82.39%/4479.60MB/00:02:10 Down: 15.95MB/s / Disk: 14.53MB/s
+(14:15:44) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 82.66%/4494.57MB/00:02:10 Down: 14.95MB/s / Disk: 17.98MB/s
+(14:15:45) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 82.86%/4505.56MB/00:02:10 Down: 10.97MB/s / Disk: 10.98MB/s
+(14:15:46) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 83.1%/4518.54MB/00:02:11 Down: 12.95MB/s / Disk: 9.97MB/s
+(14:15:47) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 83.34%/4531.49MB/00:02:11 Down: 12.92MB/s / Disk: 13.97MB/s
+(14:15:48) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 83.58%/4544.47MB/00:02:11 Down: 12.96MB/s / Disk: 14.33MB/s
+(14:15:49) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 83.84%/4558.42MB/00:02:11 Down: 13.91MB/s / Disk: 12.96MB/s
+(14:15:50) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 84.08%/4571.41MB/00:02:11 Down: 12.97MB/s / Disk: 12.42MB/s
+(14:15:51) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 84.28%/4582.39MB/00:02:11 Down: 10.97MB/s / Disk: 12.98MB/s
+(14:15:52) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 84.55%/4597.37MB/00:02:11 Down: 14.95MB/s / Disk: 14.98MB/s
+(14:15:53) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 84.83%/4612.36MB/00:02:11 Down: 14.98MB/s / Disk: 9.99MB/s
+(14:15:54) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 85.09%/4626.36MB/00:02:11 Down: 13.97MB/s / Disk: 18.96MB/s
+(14:15:55) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 85.28%/4636.75MB/00:02:11 Down: 10.37MB/s / Disk: 8.99MB/s
+(14:15:56) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 85.54%/4650.88MB/00:02:11 Down: 14.11MB/s / Disk: 17.26MB/s
+(14:15:57) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 85.81%/4665.80MB/00:02:11 Down: 14.89MB/s / Disk: 13.27MB/s
+(14:15:58) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 86.1%/4681.69MB/00:02:11 Down: 15.86MB/s / Disk: 17.11MB/s
+(14:15:59) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 86.29%/4691.67MB/00:02:12 Down: 9.97MB/s / Disk: 7.85MB/s
+(14:16:00) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 86.56%/4706.61MB/00:02:12 Down: 14.91MB/s / Disk: 17.58MB/s
+(14:16:01) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 86.82%/4720.52MB/00:02:12 Down: 13.89MB/s / Disk: 12.97MB/s
+(14:16:02) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 87.04%/4732.50MB/00:02:12 Down: 11.96MB/s / Disk: 10.71MB/s
+(14:16:03) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 87.28%/4745.41MB/00:02:12 Down: 12.89MB/s / Disk: 9.98MB/s
+(14:16:04) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 87.55%/4760.28MB/00:02:12 Down: 14.85MB/s / Disk: 18.73MB/s
+(14:16:05) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 87.79%/4773.22MB/00:02:12 Down: 12.91MB/s / Disk: 12.57MB/s
+(14:16:06) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 88.02%/4786.12MB/00:02:12 Down: 12.89MB/s / Disk: 9.99MB/s
+(14:16:07) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 88.24%/4798.09MB/00:02:12 Down: 11.95MB/s / Disk: 16.28MB/s
+(14:16:08) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 88.52%/4813.04MB/00:02:12 Down: 14.93MB/s / Disk: 8.99MB/s
+(14:16:09) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 88.74%/4824.97MB/00:02:12 Down: 11.91MB/s / Disk: 18.03MB/s
+(14:16:10) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 89.01%/4839.94MB/00:02:12 Down: 14.94MB/s / Disk: 13.98MB/s
+(14:16:11) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 89.25%/4852.88MB/00:02:12 Down: 12.93MB/s / Disk: 11.99MB/s
+(14:16:12) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 89.49%/4865.77MB/00:02:12 Down: 12.89MB/s / Disk: 14.99MB/s
+(14:16:13) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 89.78%/4881.70MB/00:02:12 Down: 15.9MB/s / Disk: 12.98MB/s
+(14:16:14) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 89.96%/4891.60MB/00:02:13 Down: 9.89MB/s / Disk: 10.09MB/s
+(14:16:15) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 90.24%/4906.54MB/00:02:13 Down: 14.91MB/s / Disk: 16.74MB/s
+(14:16:16) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 90.49%/4920.44MB/00:02:13 Down: 13.88MB/s / Disk: 14.97MB/s
+(14:16:17) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 90.77%/4935.37MB/00:02:13 Down: 14.9MB/s / Disk: 14.9MB/s
+(14:16:18) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 91.01%/4948.32MB/00:02:13 Down: 12.93MB/s / Disk: 12.01MB/s
+(14:16:19) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 91.19%/4958.26MB/00:02:13 Down: 9.93MB/s / Disk: 11.95MB/s
+(14:16:20) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 91.46%/4973.10MB/00:02:13 Down: 14.81MB/s / Disk: 14.98MB/s
+(14:16:21) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 91.74%/4987.97MB/00:02:13 Down: 14.85MB/s / Disk: 14.8MB/s
+(14:16:22) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 91.97%/5000.91MB/00:02:13 Down: 12.91MB/s / Disk: 11.98MB/s
+(14:16:23) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 92.12%/5008.84MB/00:02:13 Down: 7.92MB/s / Disk: 7.99MB/s
+(14:16:24) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 92.41%/5024.75MB/00:02:13 Down: 15.88MB/s / Disk: 15.83MB/s
+(14:16:25) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 92.71%/5040.65MB/00:02:13 Down: 15.86MB/s / Disk: 13.8MB/s
+(14:16:26) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 92.96%/5054.57MB/00:02:13 Down: 13.89MB/s / Disk: 11.98MB/s
+(14:16:27) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 93.16%/5065.55MB/00:02:13 Down: 10.95MB/s / Disk: 13.68MB/s
+(14:16:28) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 93.38%/5077.51MB/00:02:13 Down: 11.95MB/s / Disk: 12.6MB/s
+(14:16:29) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 93.68%/5093.46MB/00:02:13 Down: 15.92MB/s / Disk: 17.96MB/s
+(14:16:30) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 93.93%/5107.40MB/00:02:13 Down: 13.92MB/s / Disk: 10.99MB/s
+(14:16:31) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 94.17%/5120.35MB/00:02:13 Down: 12.93MB/s / Disk: 11.98MB/s
+(14:16:32) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 94.35%/5130.24MB/00:02:13 Down: 9.87MB/s / Disk: 11.98MB/s
+(14:16:33) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 94.55%/5141.22MB/00:02:13 Down: 10.97MB/s / Disk: 12.98MB/s
+(14:16:34) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 94.83%/5156.06MB/00:02:13 Down: 14.81MB/s / Disk: 15.09MB/s
+(14:16:35) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 95.05%/5168.03MB/00:02:13 Down: 11.95MB/s / Disk: 11.89MB/s
+(14:16:36) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 95.19%/5175.89MB/00:02:13 Down: 7.85MB/s / Disk: 7.93MB/s
+(14:16:37) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 95.39%/5186.86MB/00:02:13 Down: 10.95MB/s / Disk: 8.98MB/s
+(14:16:38) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 95.54%/5194.82MB/00:02:14 Down: 7.95MB/s / Disk: 10.14MB/s
+(14:16:39) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 95.68%/5202.26MB/00:02:14 Down: 7.42MB/s / Disk: 6.83MB/s
+(14:16:40) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 95.9%/5214.34MB/00:02:03 Down: 12.06MB/s / Disk: 7.96MB/s
+(14:16:41) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 96.03%/5221.57MB/00:01:37 Down: 7.22MB/s / Disk: 28.15MB/s
+(14:16:42) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 96.17%/5229.27MB/00:01:34 Down: 7.69MB/s / Disk: 15.97MB/s
+(14:16:43) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 96.43%/5243.45MB/00:01:27 Down: 14.14MB/s / Disk: 24.93MB/s
+(14:16:44) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 96.68%/5256.60MB/00:01:18 Down: 13.14MB/s / Disk: 48.17MB/s
+(14:16:45) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 96.94%/5270.71MB/00:01:13 Down: 14.1MB/s / Disk: 41.16MB/s
+(14:16:46) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 97.18%/5284.09MB/00:01:07 Down: 13.37MB/s / Disk: 43.16MB/s
+(14:16:47) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 97.41%/5296.57MB/00:01:02 Down: 12.44MB/s / Disk: 41.4MB/s
+(14:16:48) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 97.67%/5310.73MB/00:00:57 Down: 14.15MB/s / Disk: 43.75MB/s
+(14:16:49) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 97.92%/5324.13MB/00:00:51 Down: 13.37MB/s / Disk: 54.24MB/s
+(14:16:50) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 98.15%/5336.84MB/00:00:30 Down: 12.69MB/s / Disk: 64.39MB/s
+(14:16:51) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 98.4%/5350.25MB/00:00:11 Down: 13.4MB/s / Disk: 75.81MB/s
+(14:16:52) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 98.64%/5363.31MB/00:00:05 Down: 13.05MB/s / Disk: 45.64MB/s
+(14:16:53) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 98.88%/5376.19MB/00:00:02 Down: 12.85MB/s / Disk: 32.76MB/s
+(14:16:54) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 99%/5382.91MB/00:00:01 Down: 6.71MB/s / Disk: 27.28MB/s
+(14:16:55) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 99.33%/5400.64MB/00:00:00 Down: 17.7MB/s / Disk: 17.99MB/s
+(14:16:56) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 99.54%/5412.51MB/00:00:00 Down: 11.86MB/s / Disk: 6.91MB/s
+(14:16:57) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 99.85%/5429.05MB/00:00:00 Down: 16.51MB/s / Disk: 18.98MB/s
+(14:16:58) INFO:    [Legendary]:        Progress for Subnautica Below Zero: 100%/5437.29MB/00:00:00 Down: 8.22MB/s / Disk: 27.23MB/s
+(14:16:59) INFO:    [Backend]:          Adding shortcuts for Subnautica Below Zero
+(14:16:59) INFO:    [DownloadManager]:  Finished Installation of Foxglove
+(14:16:59) INFO:    [DownloadManager]:  Foxglove added to download manager finished.
+(14:16:59) INFO:    [DownloadManager]:  Foxglove removed from download manager.
+(14:16:59) INFO:    [Frontend]:         Refreshing legendary Library
+(14:16:59) INFO:    [Legendary]:        Refreshing library...
+(14:16:59) INFO:    [Legendary]:        Refreshing Epic Games...
+(14:16:59) DEBUG:   [Legendary]:        Using cached install info
+(14:16:59) DEBUG:   [Legendary]:        Using cached install info
+(14:17:00) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(14:17:00) INFO:    [DownloadManager]:  Downloader: Finished downloading https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_SubnauticaBelowZero_UnknownWorldsEntertainmentInc_S2_1200x1600-b131add18be6b0f16511772e17850e49
+(14:17:02) INFO:    [Legendary]:        Game list updated, got 40 games & DLCs
+(14:17:02) DEBUG:   [Legendary]:        Using cached install info
+(14:17:02) DEBUG:   [Legendary]:        Using cached install info
+(14:17:02) DEBUG:   [Legendary]:        Using cached install info
+(14:17:02) DEBUG:   [Legendary]:        Using cached install info
+(14:27:42) DEBUG:   [Legendary]:        Using cached install info
+(14:28:04) INFO:    [Backend]:          Foxglove: Setting showFps to true
+(14:28:41) DEBUG:   [Legendary]:        Using cached install info
+(14:28:42) INFO:    [Backend]:          Launching Subnautica Below Zero (Foxglove)
+(14:28:42) INFO:    [Backend]:          Preventing display from sleep
+(14:28:42) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:28:42) INFO:    [Backend]:          Preventing machine to sleep
+(14:28:42) DEBUG:   [Legendary]:        Using cached install info
+(14:28:42) DEBUG:   [Legendary]:        Using cached install info
+(14:28:43) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:28:43) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:28:43) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:28:43) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(14:28:45) INFO:    [Backend]:          Created/Updated Wineprefix at /home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero
+(14:28:45) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:28:45) DEBUG:   [Legendary]:        Using cached install info
+(14:28:45) DEBUG:   [Backend]:          Running Wine command: run reg add HKEY_CLASSES_ROOT\com.epicgames.launcher /f
+(14:28:45) DEBUG:   [Legendary]:        Using cached install info
+(14:28:46) DEBUG:   [Legendary]:        Using cached install info
+(14:28:46) INFO:    [Legendary]:        Checking if EOS Overlay is enabled: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary eos-overlay info --prefix "/home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero/pfx"
+(14:28:46) INFO:    [Legendary]:        Abort command "LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary eos-overlay info --prefix "/home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero/pfx""
+(14:28:46) INFO:    [Runtime]:          Downloading runtime eac_runtime with download link https://github.com/lutris/buildbot/releases/download/2022.06.23/eac_runtime-20240114.tar.xz
+(14:28:47) INFO:    [Runtime]:          Downloading runtime battleye_runtime with download link https://github.com/lutris/buildbot/releases/download/2024-05-21/battleeye_runtime.tar.xz
+(14:28:49) INFO:    [Legendary]:        Launching Subnautica Below Zero: HEROIC_APP_NAME=Foxglove HEROIC_APP_RUNNER=legendary GAMEID=umu-0 HEROIC_APP_SOURCE=epic STORE=egs STEAM_COMPAT_INSTALL_PATH=/home/nick/Games/Heroic/SubnauticaBelowZero LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/nick/.steam/steam WINEPREFIX="/home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero" STEAM_COMPAT_DATA_PATH="/home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero" PROTONPATH="/home/nick/.local/share/Steam/steamapps/common/Proton - Experimental" DXVK_HUD=fps WINE_FULLSCREEN_FSR=0 PROTON_DISABLE_NVAPI=1 PROTON_EAC_RUNTIME=/home/nick/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/nick/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId=heroic-SubnauticaBelowZero PROTON_LOG_DIR=/home/nick LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary launch Foxglove --no-wine --wrapper " "/home/nick/.local/share/Steam/steamapps/common/Proton - Experimental/proton" waitforexitandrun" --language en
+(14:28:49) INFO:    [Backend]:          Preventing display to sleep
+(14:28:49) DEBUG:   [Legendary]:        Using cached install info
+(14:28:49) DEBUG:   [Legendary]:        Using cached install info
+(14:29:17) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(14:29:18) INFO:    [Frontend]:         Refreshing legendary Library
+(14:29:18) INFO:    [Legendary]:        Refreshing library...
+(14:29:18) INFO:    [Legendary]:        Refreshing Epic Games...
+(14:29:18) INFO:    [Backend]:          Stopping Power Saver Blocker
+(14:29:18) INFO:    [Backend]:          Stopping Display Sleep Blocker
+(14:29:18) DEBUG:   [Legendary]:        Using cached install info
+(14:29:18) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(14:29:18) DEBUG:   [Legendary]:        Using cached install info
+(14:29:19) INFO:    [Legendary]:        Game list updated, got 40 games & DLCs
+(14:29:19) DEBUG:   [Legendary]:        Using cached install info
+(14:29:19) DEBUG:   [Legendary]:        Using cached install info
+(14:29:59) ERROR:   [Frontend]:         Error: Request failed with status code 404
+(14:32:13) INFO:    [Backend]:          Adding shortcuts for BelowZeroMultiPlayer
+(14:32:13) INFO:    [Backend]:          Writing config for jiqqNEXPntMkctjjjPNhXd
+(14:32:13) INFO:    [Backend]:          Changed config: wineVersion from {"bin":"/usr/bin/wine","name":"Wine Default - wine-9.20","type":"wine","wineserver":"/usr/bin/wineserver"} to {"bin":"/home/nick/.local/share/Steam/steamapps/common/Proton - Experimental/proton","name":"Proton - Proton - Experimental","type":"proton"}
+(14:32:13) INFO:    [Backend]:          Changed config: winePrefix from /home/nick/Games/Heroic/Prefixes/default to /home/nick/Games/Heroic/Prefixes/default/BelowZeroMultiPlayer
+(14:32:13) INFO:    [Backend]:          Changed config: wineCrossoverBottle from undefined to 
+(14:32:13) INFO:    [Frontend]:         Refreshing sideload Library
+(14:32:13) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(14:32:13) WARNING: [Backend]:          listUpdateableGames not implemented on Sideload Library Manager
+(14:32:13) INFO:    [DownloadManager]:  Downloader: Finished downloading https://cdn2.steamgriddb.com/thumb/e47883e8ec16860ea2385727a6824c28.jpg
+(14:32:13) INFO:    [Legendary]:        Checking for game updates: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(14:32:15) INFO:    [Legendary]:        Found 0 games to update
+(14:32:38) INFO:    [ExtraGameInfo]:    Getting ExtraGameInfo data for BelowZeroMultiPlayer
+(14:32:38) INFO:    [ExtraGameInfo]:    Getting PCGamingWiki data for BelowZeroMultiPlayer
+(14:32:38) INFO:    [ExtraGameInfo]:    Getting HowLongToBeat data for BelowZeroMultiPlayer
+(14:32:38) INFO:    [ExtraGameInfo]:    Getting GamesDB data for BelowZeroMultiPlayer
+(14:32:38) INFO:    [ExtraGameInfo]:    Getting ExtraGameInfo data for BelowZeroMultiPlayer
+(14:32:38) INFO:    [ExtraGameInfo]:    Getting PCGamingWiki data for BelowZeroMultiPlayer
+(14:32:38) INFO:    [ExtraGameInfo]:    Getting HowLongToBeat data for BelowZeroMultiPlayer
+(14:32:38) INFO:    [ExtraGameInfo]:    Getting GamesDB data for BelowZeroMultiPlayer
+(14:32:38) WARNING: [Backend]:          getExtraInfo not implemented on Sideload Game Manager. called for appName = jiqqNEXPntMkctjjjPNhXd
+(14:32:38) ERROR:   [ExtraGameInfo]:    Got AxiosError when sending HowLongToBeat request for BelowZeroMultiPlayer: {
+  "message": "Request failed with status code 404",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 404\n    at createError (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/opt/Heroic/resources/app.asar/node_modules/axios/lib/adapters/http.js:322:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json",
+      "User-Agent": "HeroicGamesLauncher/2.15.2",
+      "Referer": "https://howlongtobeat.com/",
+      "Content-Length": 355
+    },
+    "method": "post",
+    "url": "https://www.howlongtobeat.com/api/search",
+    "data": "{\"searchType\":\"games\",\"searchTerms\":[\"BelowZeroMultiPlayer\"],\"searchPage\":1,\"size\":20,\"searchOptions\":{\"games\":{\"userId\":0,\"platform\":\"\",\"sortCategory\":\"popular\",\"rangeCategory\":\"main\",\"rangeTime\":{\"min\":0,\"max\":0},\"gameplay\":{\"perspective\":\"\",\"flow\":\"\",\"genre\":\"\"},\"modifier\":\"\"},\"users\":{\"sortCategory\":\"postcount\"},\"filter\":\"\",\"sort\":0,\"randomizer\":0}}"
+  },
+  "status": 404
+}
+(14:32:38) DEBUG:   [Backend]:          No SteamID, not getting ProtonDB info
+(14:32:38) DEBUG:   [Backend]:          No SteamID, not getting Stem Deck info
+(14:32:38) ERROR:   [ExtraGameInfo]:    Got AxiosError when sending HowLongToBeat request for BelowZeroMultiPlayer: {
+  "message": "Request failed with status code 404",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 404\n    at createError (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/opt/Heroic/resources/app.asar/node_modules/axios/lib/adapters/http.js:322:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json",
+      "User-Agent": "HeroicGamesLauncher/2.15.2",
+      "Referer": "https://howlongtobeat.com/",
+      "Content-Length": 355
+    },
+    "method": "post",
+    "url": "https://www.howlongtobeat.com/api/search",
+    "data": "{\"searchType\":\"games\",\"searchTerms\":[\"BelowZeroMultiPlayer\"],\"searchPage\":1,\"size\":20,\"searchOptions\":{\"games\":{\"userId\":0,\"platform\":\"\",\"sortCategory\":\"popular\",\"rangeCategory\":\"main\",\"rangeTime\":{\"min\":0,\"max\":0},\"gameplay\":{\"perspective\":\"\",\"flow\":\"\",\"genre\":\"\"},\"modifier\":\"\"},\"users\":{\"sortCategory\":\"postcount\"},\"filter\":\"\",\"sort\":0,\"randomizer\":0}}"
+  },
+  "status": 404
+}
+(14:32:38) DEBUG:   [Backend]:          No SteamID, not getting ProtonDB info
+(14:32:38) DEBUG:   [Backend]:          No SteamID, not getting Stem Deck info
+(14:33:00) INFO:    [Frontend]:         Refreshing sideload Library
+(14:33:00) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(14:33:00) WARNING: [Backend]:          listUpdateableGames not implemented on Sideload Library Manager
+(14:33:00) INFO:    [Legendary]:        Checking for game updates: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(14:33:01) INFO:    [Legendary]:        Found 0 games to update
+(14:33:01) WARNING: [Backend]:          getExtraInfo not implemented on Sideload Game Manager. called for appName = jiqqNEXPntMkctjjjPNhXd
+(14:33:01) INFO:    [ExtraGameInfo]:    Getting ExtraGameInfo data for Below Zero Multiplayer
+(14:33:01) INFO:    [ExtraGameInfo]:    Getting PCGamingWiki data for Below Zero Multiplayer
+(14:33:01) INFO:    [ExtraGameInfo]:    Getting HowLongToBeat data for Below Zero Multiplayer
+(14:33:01) INFO:    [ExtraGameInfo]:    Getting GamesDB data for Below Zero Multiplayer
+(14:33:02) ERROR:   [ExtraGameInfo]:    Got AxiosError when sending HowLongToBeat request for Below Zero Multiplayer: {
+  "message": "Request failed with status code 404",
+  "name": "Error",
+  "stack": "Error: Request failed with status code 404\n    at createError (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/createError.js:16:15)\n    at settle (/opt/Heroic/resources/app.asar/node_modules/axios/lib/core/settle.js:17:12)\n    at IncomingMessage.handleStreamEnd (/opt/Heroic/resources/app.asar/node_modules/axios/lib/adapters/http.js:322:11)\n    at IncomingMessage.emit (node:events:531:35)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)",
+  "config": {
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "headers": {
+      "Accept": "*/*",
+      "Content-Type": "application/json",
+      "User-Agent": "HeroicGamesLauncher/2.15.2",
+      "Referer": "https://howlongtobeat.com/",
+      "Content-Length": 361
+    },
+    "method": "post",
+    "url": "https://www.howlongtobeat.com/api/search",
+    "data": "{\"searchType\":\"games\",\"searchTerms\":[\"Below\",\"Zero\",\"Multiplayer\"],\"searchPage\":1,\"size\":20,\"searchOptions\":{\"games\":{\"userId\":0,\"platform\":\"\",\"sortCategory\":\"popular\",\"rangeCategory\":\"main\",\"rangeTime\":{\"min\":0,\"max\":0},\"gameplay\":{\"perspective\":\"\",\"flow\":\"\",\"genre\":\"\"},\"modifier\":\"\"},\"users\":{\"sortCategory\":\"postcount\"},\"filter\":\"\",\"sort\":0,\"randomizer\":0}}"
+  },
+  "status": 404
+}
+(14:33:02) DEBUG:   [Backend]:          No SteamID, not getting ProtonDB info
+(14:33:02) DEBUG:   [Backend]:          No SteamID, not getting Stem Deck info
+(14:33:07) INFO:    [Backend]:          Launching Below Zero Multiplayer (jiqqNEXPntMkctjjjPNhXd)
+(14:33:07) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:33:07) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:33:07) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:33:07) INFO:    [Backend]:          Preventing machine to sleep
+(14:33:07) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:33:07) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(14:33:08) INFO:    [Backend]:          Created/Updated Wineprefix at /home/nick/Games/Heroic/Prefixes/default/BelowZeroMultiPlayer
+(14:33:08) INFO:    [Backend]:          launching non-native sideloaded: /home/nick/Documents/BelowZero/Subnautica.Multiplayer.exe 
+(14:33:08) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:33:08) DEBUG:   [Backend]:          Running Wine command: waitforexitandrun /home/nick/Documents/BelowZero/Subnautica.Multiplayer.exe
+(14:33:08) DEBUG:   [Backend]:          Logging to file "/home/nick/.config/heroic/GamesConfig/jiqqNEXPntMkctjjjPNhXd-lastPlay.log"
+(14:33:08) INFO:    [Backend]:          Preventing display to sleep
+(14:35:05) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(14:35:05) INFO:    [Frontend]:         Refreshing sideload Library
+(14:35:05) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(14:35:05) INFO:    [Backend]:          Stopping Power Saver Blocker
+(14:35:05) INFO:    [Backend]:          Stopping Display Sleep Blocker
+(14:35:15) INFO:    [Backend]:          jiqqNEXPntMkctjjjPNhXd: Setting showFps to true

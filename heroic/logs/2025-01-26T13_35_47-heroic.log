@@ -1,0 +1,86 @@
+(14:35:47) INFO:    [Legendary]:        Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
+(14:35:47) INFO:    [Gog]:              GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
+(14:35:47) INFO:    [Connection]:       Connectivity: check-online
+(14:35:47) INFO:    [Connection]:       Pinging external endpoints
+(14:35:47) INFO:    [Gog]:              Checking for existing gog manifests
+(14:35:47) WARNING: [Backend]:          Protocol already registered.
+(14:35:47) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+(14:35:47) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/nick/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/nick/.config/heroic/gog_store/auth.json --version
+(14:35:47) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/nick/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile --version
+(14:35:48) INFO:    [Connection]:       Connectivity: online
+(14:35:48) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(14:35:48) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/nick/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/nick/.config/heroic/gog_store/auth.json auth
+(14:35:48) INFO:    [Backend]:          
+System Information:
+CPU: 8x Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+Memory: 16.7 GB (used: 2.46 GB)
+GPUs:
+  GPU 0:
+    Name: NVIDIA Corporation TU106 [GeForce RTX 2060 Rev. A]
+    IDs: D=1f08 V=10de SD=2062 SV=3842
+    Driver: nvidia
+OS: Arch Linux 6.6.72-1-lts (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.2 Emeth
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.1.2
+
+  Nile: 1.1.2 Will A. Zeppeli
+
+(14:35:48) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(14:35:48) INFO:    [Frontend]:         Refreshing undefined Library
+(14:35:48) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(14:35:48) INFO:    [Legendary]:        Refreshing library...
+(14:35:48) INFO:    [Legendary]:        Refreshing Epic Games...
+(14:35:48) INFO:    [Backend]:          Frontend Ready
+(14:35:48) INFO:    [Backend]:          Checking for new Heroic Updates
+(14:35:48) INFO:    [Backend]:          Checking for current version changelog
+(14:35:48) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(14:35:50) INFO:    [Winetricks]:       Downloading Winetricks
+(14:35:50) INFO:    [Legendary]:        Game list updated, got 40 games & DLCs
+(14:35:50) WARNING: [Backend]:          listUpdateableGames not implemented on Sideload Library Manager
+(14:35:50) INFO:    [Legendary]:        Checking for game updates: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary list --third-party
+(14:35:51) INFO:    [Legendary]:        Found 0 games to update
+(14:35:52) INFO:    [WineDownloader]:   Updating wine versions info
+(14:35:52) INFO:    [WineDownloader]:   Fetching upstream information...
+(14:35:53) INFO:    [Backend]:          Starting the Download Queue
+(14:35:53) INFO:    [WineDownloader]:   wine versions updated
+(14:36:44) INFO:    [Backend]:          Launching Below Zero Multiplayer (jiqqNEXPntMkctjjjPNhXd)
+(14:36:44) INFO:    [Backend]:          Preventing display from sleep
+(14:36:44) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:36:44) INFO:    [Backend]:          Preventing machine to sleep
+(14:36:44) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:36:44) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:36:44) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:36:44) DEBUG:   [Backend]:          Running Wine command: run wineboot --init
+(14:36:54) INFO:    [Backend]:          launching non-native sideloaded: /home/nick/Documents/BelowZero/Subnautica.Multiplayer.exe 
+(14:36:54) INFO:    [Backend]:          Checking if wine version exists: Proton - Proton - Experimental
+(14:36:54) DEBUG:   [Backend]:          Running Wine command: waitforexitandrun /home/nick/Documents/BelowZero/Subnautica.Multiplayer.exe
+(14:36:54) DEBUG:   [Backend]:          Logging to file "/home/nick/.config/heroic/GamesConfig/jiqqNEXPntMkctjjjPNhXd-lastPlay.log"
+(14:36:54) INFO:    [Backend]:          Preventing display to sleep
+(14:39:46) INFO:    [Legendary]:        Checking if EOS Overlay is enabled: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary eos-overlay info --prefix "/home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero/pfx"
+(14:39:46) INFO:    [ExtraGameInfo]:    Using cached ExtraGameInfo data for Subnautica Below Zero
+(14:39:46) DEBUG:   [Legendary]:        Using cached install info
+(14:39:46) INFO:    [ExtraGameInfo]:    Using cached ExtraGameInfo data for Subnautica Below Zero
+(14:39:46) DEBUG:   [Legendary]:        Using cached install info
+(14:39:46) DEBUG:   [Legendary]:        Using cached install info
+(14:39:46) INFO:    [Legendary]:        Abort command "LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary eos-overlay info --prefix "/home/nick/Games/Heroic/Prefixes/default/Subnautica Below Zero/pfx""
+(14:40:14) INFO:    [ExtraGameInfo]:    Using cached ExtraGameInfo data for Subnautica Below Zero
+(14:40:14) INFO:    [Shortcuts]:        Prepare Steam images for Subnautica Below Zero
+(14:40:14) INFO:    [Shortcuts]:        Subnautica Below Zero was successfully added to Steam.
+(14:40:14) INFO:    [DownloadManager]:  Downloader: Finished downloading https://cdn.cloudflare.steamstatic.com/steam/apps/848450/library_600x900_2x.jpg
+(14:40:14) INFO:    [DownloadManager]:  Downloader: Finished downloading https://cdn.cloudflare.steamstatic.com/steam/apps/848450/library_hero.jpg
+(14:40:14) INFO:    [DownloadManager]:  Downloader: Finished downloading https://cdn.cloudflare.steamstatic.com/steam/apps/848450/library_hero.jpg
+(14:40:14) INFO:    [DownloadManager]:  Downloader: Finished downloading https://cdn.cloudflare.steamstatic.com/steam/apps/848450/logo.png
+(14:55:54) INFO:    [Backend]:          Stopping Display Power Saver Blocker
+(14:55:54) INFO:    [Frontend]:         Refreshing sideload Library
+(14:55:54) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(14:55:54) INFO:    [Backend]:          Stopping Power Saver Blocker
+(14:55:54) INFO:    [Backend]:          Stopping Display Sleep Blocker
+(14:55:54) DEBUG:   [Legendary]:        Using cached install info
+(14:55:54) DEBUG:   [Legendary]:        Using cached install info

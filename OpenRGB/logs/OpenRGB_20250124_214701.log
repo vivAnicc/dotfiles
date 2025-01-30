@@ -1,0 +1,47 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250124_214701
+====================================================================================================
+
+0     |Info:    Found file: Almost normal.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Almost normal
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    |               Start device detection               |
+1004  |Info:    ------------------------------------------------------
+1005  |Info:    Initializing HID interfaces: Success
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |             Detecting I2C interfaces               |
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1F08 Subsystem: 3842:2062
+1011  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1F08 Subsystem: 3842:2062
+1011  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1ADB Subsystem: 3842:2062
+1011  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1F08 Subsystem: 3842:2062
+1011  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:A323 Subsystem: 1462:7B17
+1011  |Info:    ------------------------------------------------------
+1011  |Info:    |               Detecting I2C devices                |
+1011  |Info:    ------------------------------------------------------
+1289  |Info:    ------------------------------------------------------
+1289  |Info:    |               Detecting I2C PCI devices            |
+1289  |Info:    ------------------------------------------------------
+1290  |Info:    ------------------------------------------------------
+1290  |Info:    |               Detecting HID devices                |
+1290  |Info:    ------------------------------------------------------
+1347  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+1735  |Info:    [G502 HERO Gaming Mouse] Registering RGB controller
+1789  |Info:    [SteelSeries Apex 3] Registering RGB controller
+2079  |Info:    [MSI MPG Z390 GAMING PRO CARBON (MS-7B17)] Registering RGB controller
+2079  |Info:    ------------------------------------------------------
+2079  |Info:    |            Detecting libusb HID devices            |
+2079  |Info:    ------------------------------------------------------
+2110  |Info:    ------------------------------------------------------
+2110  |Info:    |              Detecting other devices               |
+2110  |Info:    ------------------------------------------------------
+2114  |Info:    ------------------------------------------------------
+2114  |Info:    |                Detection completed                 |
+2114  |Info:    ------------------------------------------------------
+2114  |Dialog:  <h2>WARNING:</h2><p>One or more I2C/SMBus interfaces failed to initialize.</p><p>RGB DRAM modules and some motherboards' onboard RGB lighting will not be available without I2C/SMBus.</p><p>On Linux, this is usually because the i2c-dev module is not loaded.  You must load the i2c-dev module along with the correct i2c driver for your motherboard.  This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p>
+42026 |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw7
+42026 |Info:    Profile loading: Succeeded for G502 HERO Gaming Mouse @ HID: /dev/hidraw1 (Receiver) 
+Wireless Index: 255
+42026 |Info:    Profile loading: Succeeded for SteelSeries Apex 3 @ HID: /dev/hidraw5
+42026 |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING PRO CARBON (MS-7B17) @ HID: /dev/hidraw6

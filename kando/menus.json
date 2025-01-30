@@ -1,0 +1,127 @@
+{
+  "menus": [
+    {
+      "shortcut": "Shift+Control+Meta+Space",
+      "shortcutID": "example-menu",
+      "centered": true,
+      "root": {
+        "type": "submenu",
+        "name": "Menu",
+        "icon": "award_star",
+        "iconTheme": "material-symbols-rounded",
+        "children": [
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Applications",
+            "icon": "apps",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "command",
+                "data": {
+                  "command": "vesktop",
+                  "delayed": false
+                },
+                "name": "Discord",
+                "icon": "cast",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "zen-browser --private-window",
+                  "delayed": false
+                },
+                "name": "Incognito",
+                "icon": "bring_your_own_ip",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "command",
+                "data": {
+                  "command": "Archipelago.AppImage",
+                  "delayed": false
+                },
+                "name": "Archipelago",
+                "icon": "videogame_asset",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          },
+          {
+            "type": "submenu",
+            "data": {},
+            "name": "Sites",
+            "icon": "bring_your_own_ip",
+            "iconTheme": "material-symbols-rounded",
+            "children": [
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://www.twitch.tv/"
+                },
+                "name": "Twitch",
+                "icon": "cast_connected",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://www.reddit.com/"
+                },
+                "name": "Reddit",
+                "icon": "wallpaper_slideshow",
+                "iconTheme": "material-symbols-rounded"
+              },
+              {
+                "type": "uri",
+                "data": {
+                  "uri": "https://www.youtube.com/"
+                },
+                "name": "Youtube",
+                "icon": "youtube_activity",
+                "iconTheme": "material-symbols-rounded"
+              }
+            ]
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "ShiftLeft+MetaLeft+PageDown",
+              "delayed": true
+            },
+            "name": "Workspace Right",
+            "icon": "line_end_arrow_notch",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 90
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "AltLeft+F4",
+              "delayed": true
+            },
+            "name": "Close window",
+            "icon": "tab_close",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 180
+          },
+          {
+            "type": "hotkey",
+            "data": {
+              "hotkey": "ShiftLeft+MetaLeft+PageUp",
+              "delayed": true
+            },
+            "name": "Workspace Left",
+            "icon": "line_start_arrow_notch",
+            "iconTheme": "material-symbols-rounded",
+            "angle": 270
+          }
+        ]
+      },
+      "warpMouse": true
+    }
+  ],
+  "templates": []
+}

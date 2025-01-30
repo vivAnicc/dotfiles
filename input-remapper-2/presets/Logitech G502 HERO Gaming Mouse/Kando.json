@@ -1,0 +1,19 @@
+[
+    {
+        "input_combination": [
+            {
+                "type": 1,
+                "code": 275,
+                "origin_hash": "3010703e4c2ff7c7b45909c4098f1f0b"
+            },
+            {
+                "type": 1,
+                "code": 276,
+                "origin_hash": "3010703e4c2ff7c7b45909c4098f1f0b"
+            }
+        ],
+        "target_uinput": "keyboard",
+        "output_symbol": "Control_L  + Shift_L + Super_L + space",
+        "mapping_type": "key_macro"
+    }
+]

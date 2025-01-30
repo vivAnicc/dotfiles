@@ -1,0 +1,22 @@
+{
+	"games": [
+		{
+			"runner": "sideload",
+			"app_name": "jiqqNEXPntMkctjjjPNhXd",
+			"title": "Below Zero Multiplayer",
+			"install": {
+				"executable": "/home/nick/Documents/BelowZero/Subnautica.Multiplayer.exe",
+				"platform": "Windows",
+				"is_dlc": false
+			},
+			"folder_name": "/home/nick/Documents/BelowZero",
+			"art_cover": "https://cdn2.steamgriddb.com/thumb/e47883e8ec16860ea2385727a6824c28.jpg",
+			"is_installed": true,
+			"art_square": "https://cdn2.steamgriddb.com/thumb/e47883e8ec16860ea2385727a6824c28.jpg",
+			"canRunOffline": true,
+			"browserUrl": "",
+			"customUserAgent": "",
+			"launchFullScreen": false
+		}
+	]
+}

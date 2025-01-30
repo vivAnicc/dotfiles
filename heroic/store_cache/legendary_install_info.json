@@ -1,0 +1,46 @@
+{
+	"Foxglove": {
+		"game": {
+			"app_name": "Foxglove",
+			"title": "Subnautica Below Zero",
+			"version": "49371-27733068-Windows",
+			"platform_versions": {
+				"Windows": "49371-27733068-Windows"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"command_line": null,
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 1489607,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "FoxgloveStaging",
+			"launch_exe": "SubnauticaZero.exe",
+			"launch_command": "",
+			"build_version": "49371-27733068-Windows",
+			"build_id": "8EVu8CKTWFnCznzcuFUGmBcvRAI",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 22048,
+			"num_chunks": 8054,
+			"disk_size": 8476407627,
+			"download_size": 5701408545,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"__timestamp": {
+		"Foxglove": "Sun Jan 26 2025 14:09:17 GMT+0100 (Central European Standard Time)"
+	}
+}
