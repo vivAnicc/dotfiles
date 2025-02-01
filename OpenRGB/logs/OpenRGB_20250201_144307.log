@@ -1,0 +1,53 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250201_144307
+====================================================================================================
+
+0     |Info:    Found file: Almost normal.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Almost normal
+0     |Info:    Found file: Off.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Off
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    |               Start device detection               |
+1004  |Info:    ------------------------------------------------------
+1004  |Info:    Initializing HID interfaces: Success
+1019  |Info:    ------------------------------------------------------
+1019  |Info:    |             Detecting I2C interfaces               |
+1019  |Info:    ------------------------------------------------------
+1019  |Info:    Registering I2C interface: /dev/i2c-3 Device 10DE:1F08 Subsystem: 3842:2062
+1020  |Info:    Registering I2C interface: /dev/i2c-1 Device 10DE:1F08 Subsystem: 3842:2062
+1020  |Info:    Registering I2C interface: /dev/i2c-4 Device 10DE:1ADB Subsystem: 3842:2062
+1020  |Info:    Registering I2C interface: /dev/i2c-2 Device 10DE:1F08 Subsystem: 3842:2062
+1021  |Info:    Registering I2C interface: /dev/i2c-0 Device 10DE:1F08 Subsystem: 3842:2062
+1021  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:A323 Subsystem: 1462:7B17
+1021  |Info:    ------------------------------------------------------
+1021  |Info:    |               Detecting I2C devices                |
+1021  |Info:    ------------------------------------------------------
+1114  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1137  |Info:    [Corsair Vengeance Pro RGB] Registering RGB controller
+1390  |Info:    ------------------------------------------------------
+1390  |Info:    |               Detecting I2C PCI devices            |
+1390  |Info:    ------------------------------------------------------
+1392  |Info:    ------------------------------------------------------
+1392  |Info:    |               Detecting HID devices                |
+1392  |Info:    ------------------------------------------------------
+1447  |Info:    [Corsair Lighting Node Core] Registering RGB controller
+1834  |Info:    [G502 HERO Gaming Mouse] Registering RGB controller
+1887  |Info:    [SteelSeries Apex 3] Registering RGB controller
+2155  |Info:    [MSI MPG Z390 GAMING PRO CARBON (MS-7B17)] Registering RGB controller
+2155  |Info:    ------------------------------------------------------
+2155  |Info:    |            Detecting libusb HID devices            |
+2155  |Info:    ------------------------------------------------------
+2197  |Info:    ------------------------------------------------------
+2197  |Info:    |              Detecting other devices               |
+2197  |Info:    ------------------------------------------------------
+2216  |Info:    ------------------------------------------------------
+2216  |Info:    |                Detection completed                 |
+2216  |Info:    ------------------------------------------------------
+2216  |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-5, address 0x59
+2216  |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-5, address 0x5B
+2216  |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw7
+2216  |Info:    Profile loading: Succeeded for G502 HERO Gaming Mouse @ HID: /dev/hidraw1 (Receiver) 
+Wireless Index: 255
+2216  |Info:    Profile loading: Succeeded for SteelSeries Apex 3 @ HID: /dev/hidraw5
+2216  |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING PRO CARBON (MS-7B17) @ HID: /dev/hidraw6
