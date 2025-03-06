@@ -37,7 +37,8 @@ end
 
 eval $(ssh-agent | from_bash) > /dev/null
 
-set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/nick/.ghcup/bin # ghcup-env
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
+set -gx PATH $HOME/.cabal/bin $PATH /home/nick/.ghcup/bin # ghcup-env
 
 source "/home/nick/.jabba/jabba.fish"
 
@@ -45,3 +46,9 @@ fish_add_path ~/utils/
 fish_add_path ~/go/bin/
 fish_add_path ~/zig/compiler/
 fish_add_path ~/.local/share/flatpak/exports/share/
+
+bind -M insert \cF accept-autosuggestion
+
+source ~/.cargo/env.fish
+source ~/.config/fish/completions/*
+alias hx helix

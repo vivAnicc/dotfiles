@@ -7,7 +7,7 @@
     },
     "MenuChanger": {
       "Version": "1.2.0.0",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "Benchwarp": {
@@ -26,33 +26,33 @@
       "Pinned": false
     },
     "Archipelago": {
-      "Version": "0.6.2.0",
-      "Enabled": true,
+      "Version": "0.8.0.0",
+      "Enabled": false,
       "Pinned": false
     },
     "RandomizerCore": {
       "Version": "2.0.2.0",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "RCPathfinder": {
       "Version": "1.3.3.0",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "RandomizerCore.Json": {
       "Version": "1.0.1.0",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "MagicUI": {
       "Version": "1.8.8563.5913",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "MapChanger": {
       "Version": "1.2.2.0",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "Satchel": {
@@ -62,12 +62,12 @@
     },
     "ConnectionMetadataInjector": {
       "Version": "2.2.8484.33350",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "Archipelago Map Mod": {
       "Version": "2.3.1.0",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "Castless Focus": {
@@ -82,12 +82,17 @@
     },
     "CustomKnightPlus": {
       "Version": "0.0.1.0",
-      "Enabled": true,
+      "Enabled": false,
       "Pinned": false
     },
     "DebugMod": {
       "Version": "1.4.10.2",
       "Enabled": true,
+      "Pinned": false
+    },
+    "BenchWarpFix": {
+      "Version": "1.5.1.1",
+      "Enabled": false,
       "Pinned": false
     }
   },

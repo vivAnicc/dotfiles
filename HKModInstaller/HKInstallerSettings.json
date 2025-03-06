@@ -1,6 +1,6 @@
 {
   "ManagedFolder": "/home/nick/.local/share/Steam/steamapps/common/Hollow Knight/hollow_knight_Data/Managed",
-  "AutoRemoveUnusedDeps": "Never",
+  "AutoRemoveUnusedDeps": "Ask",
   "WarnBeforeRemovingDependents": true,
   "UseCustomModlinks": false,
   "CustomModlinksUri": "",

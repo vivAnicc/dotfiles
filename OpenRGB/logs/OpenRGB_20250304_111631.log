@@ -1,0 +1,16 @@
+    OpenRGB v0.9
+    Commit:  from 
+    Launched: 20250304_111631
+====================================================================================================
+
+0     |Info:    Found file: Almost normal.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Almost normal
+0     |Info:    Found file: Off.orp attempting to validate header
+0     |Info:    Valid v4 profile found for Off
+716   |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-5, address 0x59
+716   |Info:    Profile loading: Succeeded for Corsair Vengeance Pro RGB @ I2C: /dev/i2c-5, address 0x5B
+716   |Info:    Profile loading: Succeeded for Corsair Lighting Node Core @ HID: /dev/hidraw5
+716   |Info:    Profile loading: Succeeded for G502 HERO Gaming Mouse @ HID: /dev/hidraw3 (Receiver) 
+Wireless Index: 255
+716   |Info:    Profile loading: Succeeded for SteelSeries Apex 3 @ HID: /dev/hidraw2
+716   |Info:    Profile loading: Succeeded for MSI MPG Z390 GAMING PRO CARBON (MS-7B17) @ HID: /dev/hidraw4

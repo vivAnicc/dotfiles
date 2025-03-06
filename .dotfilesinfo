@@ -3,7 +3,6 @@ d dconf -> /home/nick/.config/dconf
 d ghc -> /home/nick/.config/ghc
 d ghostty -> /home/nick/.config/ghostty
 d GIMP -> /home/nick/.config/GIMP
-d go -> /home/nick/.config/go
 d gsconnect -> /home/nick/.config/gsconnect
 d gtk-2.0 -> /home/nick/.config/gtk-2.0
 d gtk-3.0 -> /home/nick/.config/gtk-3.0
@@ -23,7 +22,6 @@ d nwg-look -> /home/nick/.config/nwg-look
 d OpenRGB -> /home/nick/.config/OpenRGB
 d qBittorrent -> /home/nick/.config/qBittorrent
 d tmux -> /home/nick/.config/tmux
-d vesktop -> /home/nick/.config/vesktop
 d waybar -> /home/nick/.config/waybar
 d wofi -> /home/nick/.config/wofi
 d xarchiver -> /home/nick/.config/xarchiver

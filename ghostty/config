@@ -7,12 +7,11 @@ window-padding-y = 1
 window-padding-balance = true
 window-decoration = false
 gtk-tabs-location = hidden
-window-new-tab-position = current
 unfocused-split-opacity = 1
 
 #keybinds
 
-keybind = ctrl+f=esc:[C
+# keybind = ctrl+f=esc:[C
 keybind = ctrl+v=text:
 
 keybind = ctrl+a>ctrl+r=reload_config
