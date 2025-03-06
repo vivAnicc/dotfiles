@@ -1,0 +1,45 @@
+theme = "catppuccin_mocha"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "block"
+
+[editor]
+continue-comments = false
+auto-format = false
+idle-timeout = 5
+middle-click-paste = false
+completion-trigger-len = 1
+true-color = true
+color-modes = true
+insert-final-newline = false
+clipboard-provider = "wayland"
+
+[editor.smart-tab]
+enable = false
+
+[keys.normal]
+"esc" = "@<esc>;"
+D = "kill_to_line_end"
+x = ["extend_line_down", "extend_to_line_bounds"]
+X = ["extend_line_up", "extend_to_line_bounds"]
+V = "extend_line"
+_ = "goto_first_nonwhitespace"
+0 = "goto_line_start"
+a = ["append_mode", "collapse_selection"]
+i = ["insert_mode", "collapse_selection"]
+J = ["move_line_down", "move_line_down", "move_line_down", "move_line_down", "move_line_down", "move_line_down", "move_line_down"]
+K = ["move_line_up", "move_line_up", "move_line_up", "move_line_up", "move_line_up", "move_line_up", "move_line_up"]
+C-j = "join_selections"
+C-k = "keep_selections"
+C-u = ["page_cursor_half_up", "align_view_center"]
+C-d = ["page_cursor_half_down", "align_view_center"]
+H = "extend_to_first_nonwhitespace"
+L = "extend_to_line_end"
+
+[keys.normal.space]
+F = "file_picker_in_current_buffer_directory"
+
+[keys.select]
+_ = "goto_first_nonwhitespace"

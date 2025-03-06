@@ -1,0 +1,10 @@
+[[grammar]]
+name = "jarl"
+source = { git = "https://github.com/vivAnicc/tree-sitter-jarl", rev = "e4b1b1910a32db54e8255419b788e86db7f583d0" }
+
+[[language]]
+name = "jarl"
+scope = "source.jarl"
+file-types = ["jarl"]
+indent = { tab-width = 4, unit = "    " }
+grammar = "jarl"
