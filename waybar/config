@@ -39,16 +39,7 @@
                 "car": "",
                 "default": ["", ""]
             },
-            "on-click": "pavucontrol"
+            "on-click": "pwvucontrol"
         },
     },
-    {
-        "name": "bottombar",
-        "position": "bottom",
-        "height": 33,
-        "modules-center": ["hyprland/submap"],
-        "hyprland/submap": {
-            "format": "[ {} ]"
-        }
-    }
 ]

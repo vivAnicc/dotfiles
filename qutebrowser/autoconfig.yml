@@ -6,24 +6,52 @@
 
 config_version: 2
 settings:
+  bindings.commands:
+    global:
+      normal:
+        <Alt+e>: edit-text
+        <Ctrl+Shift+Tab>: tab-prev
+        <Ctrl+Tab>: tab-next
+        <Ctrl+e>: edit-text
   colors.webpage.darkmode.algorithm:
     global: lightness-hsl
   colors.webpage.darkmode.enabled:
     global: true
+  colors.webpage.darkmode.policy.page:
+    global: smart
   colors.webpage.preferred_color_scheme:
     global: dark
   content.autoplay:
     global: false
+  content.blocking.adblock.lists:
+    global:
+    - https://easylist.to/easylist/easylist.txt
+    - https://easylist.to/easylist/easyprivacy.txt
+  content.blocking.enabled:
+    faproulette.co: false
+    global: true
+  content.blocking.method:
+    global: both
+  content.blocking.whitelist:
+    global: null
+  content.javascript.clipboard:
+    https://git.suyu.dev: access-paste
+    https://github.com: access-paste
+  content.media.audio_capture:
+    https://discord.com: true
+    https://mictests.com: true
   content.notifications.enabled:
     https://www.youtube.com: false
+  content.webgl:
+    global: true
   editor.command:
     global:
-    - ghostty
-    - -e
-    - helix
+    - hx
     - '{file}'
   input.insert_mode.auto_load:
     global: true
+  scrolling.smooth:
+    global: false
   tabs.last_close:
     global: close
   tabs.position:

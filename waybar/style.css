@@ -16,11 +16,6 @@
     border-bottom: 1px solid @overlay1;
 }
 
-.bottombar {
-    background: transparent;
-    color: @overlay0;
-}
-
 #window {
     margin: 8px;
     padding-left: 8px;
@@ -106,8 +101,4 @@ button:hover {
 #tray {
     color: @lavander;
     border-bottom: 5px transparent
-}
-
-#submap {
-    color: @text;
 }

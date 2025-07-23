@@ -3,6 +3,8 @@ shell-integration = fish
 
 theme = catppuccin-mocha
 
+focus-follows-mouse = true
+
 window-padding-y = 1
 window-padding-balance = true
 window-decoration = false
@@ -11,13 +13,9 @@ unfocused-split-opacity = 1
 
 #keybinds
 
-# keybind = ctrl+f=esc:[C
-keybind = ctrl+v=text:
-
 keybind = ctrl+a>ctrl+r=reload_config
 keybind = ctrl+a>ctrl+a=text:
 keybind = ctrl+a>r=reset
-keybind = ctrl+s=ignore
 
 keybind = ctrl+a>shift+h=toggle_window_decorations
 keybind = ctrl+a>d=close_surface
